@@ -7,7 +7,7 @@ using System.Collections.Generic;
 [CustomEditor(typeof(MecanimEventData))]
 public class MecanimEventInspector : Editor {
 	// Controller -> Layer -> State
-	private Dictionary<AnimatorController, Dictionary<int, Dictionary<int, List<MecanimEvent>>>> data;
+	private Dictionary<UnityEditor.Animations.AnimatorController, Dictionary<int, Dictionary<int, List<MecanimEvent>>>> data;
 	
 	void OnEnable() {
 		LoadData();
@@ -29,11 +29,11 @@ public class MecanimEventInspector : Editor {
 			editor.TargetController = serializedObject.FindProperty("lastEdit").objectReferenceValue;
 		}
 		
-		if (previewedMotion != null && previewedMotion is BlendTree && avatarPreview != null) {
+		if (previewedMotion != null && previewedMotion is UnityEditor.Animations.BlendTree && avatarPreview != null) {
 			EditorGUILayout.Separator();
 			GUILayout.Label("BlendTree Parameter(s)", GUILayout.ExpandWidth(true));
 			
-			BlendTree bt = previewedMotion as BlendTree;
+			UnityEditor.Animations.BlendTree bt = previewedMotion as UnityEditor.Animations.BlendTree;
 			
 			for (int i = 0; i < bt.GetRecursiveBlendParamCount(); i++) {
 				float min = bt.GetRecursiveBlendParamMin(i);
@@ -47,17 +47,17 @@ public class MecanimEventInspector : Editor {
 		}
 	}
 	
-	public AnimatorController[] GetControllers() {
-		return new List<AnimatorController>(data.Keys).ToArray();
+	public UnityEditor.Animations.AnimatorController[] GetControllers() {
+		return new List<UnityEditor.Animations.AnimatorController>(data.Keys).ToArray();
 	}
 	
-	public void AddController(AnimatorController controller) {
+	public void AddController(UnityEditor.Animations.AnimatorController controller) {
 		if (!data.ContainsKey(controller)) {
 			data[controller] = new Dictionary<int, Dictionary<int, List<MecanimEvent>>>();
 		}
 	}
 	
-	public MecanimEvent[] GetEvents(AnimatorController controller, int layer, int stateNameHash) {
+	public MecanimEvent[] GetEvents(UnityEditor.Animations.AnimatorController controller, int layer, int stateNameHash) {
 		try {
 			return data[controller][layer][stateNameHash].ToArray();
 		}
@@ -66,7 +66,7 @@ public class MecanimEventInspector : Editor {
 		}
 	}
 	
-	public void SetEvents(AnimatorController controller, int layer, int stateNameHash, MecanimEvent[] events) {
+	public void SetEvents(UnityEditor.Animations.AnimatorController controller, int layer, int stateNameHash, MecanimEvent[] events) {
 		if (!data.ContainsKey(controller)) {
 			data[controller] = new Dictionary<int, Dictionary<int, List<MecanimEvent>>>();
 		}
@@ -82,7 +82,7 @@ public class MecanimEventInspector : Editor {
 		data[controller][layer][stateNameHash] = new List<MecanimEvent>(events);
 	}
 	
-	public void InsertEventsCopy(AnimatorController controller, int layer, int stateNameHash, MecanimEvent[] events) {
+	public void InsertEventsCopy(UnityEditor.Animations.AnimatorController controller, int layer, int stateNameHash, MecanimEvent[] events) {
 		
 		List<MecanimEvent> allEvents = new List<MecanimEvent>(GetEvents(controller, layer, stateNameHash));
 		
@@ -93,7 +93,7 @@ public class MecanimEventInspector : Editor {
 		SetEvents(controller, layer, stateNameHash, allEvents.ToArray());
 	}
 	
-	public Dictionary<int, Dictionary<int, MecanimEvent[]>> GetEvents(AnimatorController controller) {
+	public Dictionary<int, Dictionary<int, MecanimEvent[]>> GetEvents(UnityEditor.Animations.AnimatorController controller) {
 		try {
 			
 			Dictionary<int, Dictionary<int, MecanimEvent[]>> events = new Dictionary<int, Dictionary<int, MecanimEvent[]>>();
@@ -122,7 +122,7 @@ public class MecanimEventInspector : Editor {
 		}
 	}
 	
-	public void InsertControllerEventsCopy(AnimatorController controller, Dictionary<int, Dictionary<int, MecanimEvent[]>> events) {
+	public void InsertControllerEventsCopy(UnityEditor.Animations.AnimatorController controller, Dictionary<int, Dictionary<int, MecanimEvent[]>> events) {
 		
 		try {
 			
@@ -145,9 +145,9 @@ public class MecanimEventInspector : Editor {
 	
 	private Motion previewedMotion;
 	private AvatarPreviewWrapper avatarPreview;
-	private StateMachine stateMachine;
-	private State state;
-	private AnimatorController controller;
+	private UnityEditor.Animations.AnimatorStateMachine stateMachine;
+	private UnityEditor.Animations.AnimatorState state;
+	private UnityEditor.Animations.AnimatorController controller;
 	
 	private bool PrevIKOnFeet = false;
 	//
@@ -240,7 +240,7 @@ public class MecanimEventInspector : Editor {
 		
 		if (controller == null)
 		{
-			controller = new AnimatorController();
+			controller = new UnityEditor.Animations.AnimatorController();
 			controller.AddLayer("preview");
 			controller.hideFlags = HideFlags.DontSave;
 			
@@ -252,14 +252,14 @@ public class MecanimEventInspector : Editor {
 			state.iKOnFeet = avatarPreview.IKOnFeet;
 			state.hideFlags = HideFlags.DontSave;
 			
-			AnimatorController.SetAnimatorController(avatarPreview.Animator, controller);
+			UnityEditor.Animations.AnimatorController.SetAnimatorController(avatarPreview.Animator, controller);
 		}
 		
 		//if (AnimatorController.GetAnimatorController(avatarPreview.Animator) != this.controller)
         // By Simon, after upgrading to Unity 4.3
-        if (AnimatorController.GetEffectiveAnimatorController(avatarPreview.Animator) != this.controller)
+        if (UnityEditor.Animations.AnimatorController.GetEffectiveAnimatorController(avatarPreview.Animator) != this.controller)
 		{
-			AnimatorController.SetAnimatorController(avatarPreview.Animator, this.controller);
+			UnityEditor.Animations.AnimatorController.SetAnimatorController(avatarPreview.Animator, this.controller);
 		}
 	}
 	
@@ -271,9 +271,9 @@ public class MecanimEventInspector : Editor {
 			controller.RemoveParameter(0);
 		}
 		
-		if (previewedMotion is BlendTree)
+		if (previewedMotion is UnityEditor.Animations.BlendTree)
 		{
-			BlendTree blendTree = previewedMotion as BlendTree;
+			UnityEditor.Animations.BlendTree blendTree = previewedMotion as UnityEditor.Animations.BlendTree;
 			
 			for (int j = 0; j < blendTree.GetRecursiveBlendParamCount(); j++)
 			{
@@ -286,7 +286,7 @@ public class MecanimEventInspector : Editor {
 	{
 		if (avatarPreview != null && avatarPreview.Animator != null)
 		{
-			AnimatorController.SetAnimatorController(avatarPreview.Animator, null);
+			UnityEditor.Animations.AnimatorController.SetAnimatorController(avatarPreview.Animator, null);
 		}
 		Object.DestroyImmediate(this.controller);
 		Object.DestroyImmediate(this.stateMachine);
@@ -361,14 +361,14 @@ public class MecanimEventInspector : Editor {
 		
 		MecanimEventData dataSource = target as MecanimEventData;
 		
-		data = new Dictionary<AnimatorController, Dictionary<int, Dictionary<int, List<MecanimEvent>>>>();
+		data = new Dictionary<UnityEditor.Animations.AnimatorController, Dictionary<int, Dictionary<int, List<MecanimEvent>>>>();
 		
 		if (dataSource.data == null || dataSource.data.Length == 0)
 			return;
 		
 		foreach(MecanimEventDataEntry entry in dataSource.data) {
 			
-			AnimatorController animatorController = entry.animatorController as AnimatorController;
+			UnityEditor.Animations.AnimatorController animatorController = entry.animatorController as UnityEditor.Animations.AnimatorController;
 			
 			if (animatorController == null)
 				return;
@@ -402,7 +402,7 @@ public class MecanimEventInspector : Editor {
 		
 		List<MecanimEventDataEntry> entries = new List<MecanimEventDataEntry>();
 
-		foreach(AnimatorController controller in data.Keys) {
+		foreach(UnityEditor.Animations.AnimatorController controller in data.Keys) {
 			foreach(int layer in data[controller].Keys) {
 				foreach(int stateNameHash in data[controller][layer].Keys) {
 					
@@ -440,15 +440,15 @@ public class MecanimEventInspector : Editor {
 		if (!IsValidLayer(controllerId, layer))
 			return false;
 		
-		AnimatorController controller = EditorUtility.InstanceIDToObject(controllerId) as AnimatorController;
-		StateMachine sm = controller.GetLayer(layer).stateMachine;
+		UnityEditor.Animations.AnimatorController controller = EditorUtility.InstanceIDToObject(controllerId) as UnityEditor.Animations.AnimatorController;
+		UnityEditor.Animations.AnimatorStateMachine sm = controller.GetLayer(layer).stateMachine;
 		
 		return FindStateRecursively(sm, stateNameHash);
 	}
 	
 		
 	private bool IsValidControllerId(int controllerId) {
-		AnimatorController controller = EditorUtility.InstanceIDToObject(controllerId) as AnimatorController;
+		UnityEditor.Animations.AnimatorController controller = EditorUtility.InstanceIDToObject(controllerId) as UnityEditor.Animations.AnimatorController;
 		
 		if (controller == null)
 			return false;
@@ -457,7 +457,7 @@ public class MecanimEventInspector : Editor {
 	}
 	
 	private bool IsValidLayer(int controllerId, int layer) {
-		AnimatorController controller = EditorUtility.InstanceIDToObject(controllerId) as AnimatorController;
+		UnityEditor.Animations.AnimatorController controller = EditorUtility.InstanceIDToObject(controllerId) as UnityEditor.Animations.AnimatorController;
 		
 		if (controller == null)
 			return false;
@@ -468,14 +468,14 @@ public class MecanimEventInspector : Editor {
 			return false;
 	}
 	
-	private bool FindStateRecursively(StateMachine stateMachine, int nameHash) {
+	private bool FindStateRecursively(UnityEditor.Animations.AnimatorStateMachine stateMachine, int nameHash) {
 		for (int i = 0; i < stateMachine.stateCount; i++) {
 			if (stateMachine.GetState(i).uniqueNameHash == nameHash)
 				return true;
 		}
 		
 		for (int i = 0; i < stateMachine.stateMachineCount; i++) {
-			StateMachine tempSM = stateMachine.GetStateMachine(i);
+			UnityEditor.Animations.AnimatorStateMachine tempSM = stateMachine.GetStateMachine(i);
 			if (FindStateRecursively(tempSM, nameHash))
 				return true;
 		}

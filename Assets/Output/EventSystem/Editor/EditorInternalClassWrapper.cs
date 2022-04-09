@@ -384,19 +384,19 @@ public class ReorderableListWrapper {
 
 public static class BlendTreeExtension {
 	
-	public static int GetRecursiveBlendParamCount(this BlendTree bt) {
+	public static int GetRecursiveBlendParamCount(this UnityEditor.Animations.BlendTree bt) {
 		object val = bt.GetType().GetProperty("recursiveBlendParameterCount", BindingFlags.Instance | BindingFlags.GetProperty | BindingFlags.NonPublic | BindingFlags.Public).GetValue(bt, new object[]{});
 		return (int)val;
 	}
-	public static string GetRecursiveBlendParam(this BlendTree bt, int index) {
+	public static string GetRecursiveBlendParam(this UnityEditor.Animations.BlendTree bt, int index) {
 		object val = bt.GetType().GetMethod("GetRecursiveBlendParameter", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public).Invoke(bt, new object[]{index});
 		return (string)val;
 	}
-	public static float GetRecursiveBlendParamMax(this BlendTree bt, int index) {
+	public static float GetRecursiveBlendParamMax(this UnityEditor.Animations.BlendTree bt, int index) {
 		object val = bt.GetType().GetMethod("GetRecursiveBlendParameterMax", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public).Invoke(bt, new object[]{index});
 		return (float)val;
 	}
-	public static float GetRecursiveBlendParamMin(this BlendTree bt, int index) {
+	public static float GetRecursiveBlendParamMin(this UnityEditor.Animations.BlendTree bt, int index) {
 		object val = bt.GetType().GetMethod("GetRecursiveBlendParameterMin", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public).Invoke(bt, new object[]{index});
 		return (float)val;
 	}
@@ -405,7 +405,7 @@ public static class BlendTreeExtension {
 
 public static class StateExtension {
 	
-	public static void SetMotion(this State state, Motion motion) {
+	public static void SetMotion(this UnityEditor.Animations.AnimatorState state, Motion motion) {
 		state.GetType().GetMethod("SetMotionInternal", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public, null, new System.Type[] {typeof(Motion)}, null).Invoke(state, new object[] {motion});
 	}
 	

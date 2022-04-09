@@ -78,7 +78,7 @@ public class MegaTrainFollowEditor : Editor
 		}
 	}
 
-	[DrawGizmo(GizmoType.NotSelected | GizmoType.Pickable | GizmoType.Selected)]
+	[DrawGizmo(GizmoType.NotInSelectionHierarchy | GizmoType.Pickable | GizmoType.Selected)]
 	static void RenderGizmo(MegaTrainFollow mod, GizmoType gizmoType)
 	{
 		if ( (gizmoType & GizmoType.Active) != 0 )

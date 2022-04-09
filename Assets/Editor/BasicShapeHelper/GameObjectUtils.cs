@@ -21,7 +21,7 @@ public static class GameObjectUtils
 	{
 		_gameObject.transform.position = GetCreationPosition();
 		
-		MeshRenderer meshRenderer = (MeshRenderer)_gameObject.AddComponent("MeshRenderer");
+		MeshRenderer meshRenderer = (MeshRenderer)_gameObject.AddComponent<MeshRenderer>();
 				
 		Material defaultMaterial = new Material(Shader.Find("Diffuse"));
 		meshRenderer.material = defaultMaterial;		
@@ -41,10 +41,10 @@ public static class GameObjectUtils
 		GeometryUtils.CreateSphere(out mesh, _iSubdivision, _fRadius);
 		mesh.Optimize();
 		                           
-		MeshFilter meshFilter = (MeshFilter)newSphere.AddComponent("MeshFilter");		
+		MeshFilter meshFilter = (MeshFilter)newSphere.AddComponent<MeshFilter>();		
 		meshFilter.mesh = mesh;	
 		
-		SphereCollider sphereCollider = (SphereCollider)newSphere.AddComponent("SphereCollider");
+		SphereCollider sphereCollider = (SphereCollider)newSphere.AddComponent<SphereCollider>();
 		sphereCollider.radius = _fRadius;		
 		
 		EndCreateGameObject(newSphere);
@@ -58,10 +58,10 @@ public static class GameObjectUtils
 		GeometryUtils.CreateSlopeMesh(out mesh, _planeDims, _heights, _uvTiling, _uvOffset);
 		mesh.Optimize();
 		
-		MeshFilter meshFilter = (MeshFilter)newSlope.AddComponent("MeshFilter");		
+		MeshFilter meshFilter = (MeshFilter)newSlope.AddComponent<MeshFilter>();		
 		meshFilter.mesh = mesh;	
 		
-		MeshCollider meshCollider = (MeshCollider)newSlope.AddComponent("MeshCollider");
+		MeshCollider meshCollider = (MeshCollider)newSlope.AddComponent<MeshCollider>();
 		meshCollider.sharedMesh = mesh;
 		meshCollider.convex = true;
 		
@@ -76,11 +76,11 @@ public static class GameObjectUtils
 		GeometryUtils.CreatePlaneMesh(out mesh, _planeDims, _uvTiling, _uvOffset);
 		mesh.Optimize();
 		                           
-		MeshFilter meshFilter = (MeshFilter)newPlane.AddComponent("MeshFilter");		
+		MeshFilter meshFilter = (MeshFilter)newPlane.AddComponent<MeshFilter>();		
 		meshFilter.mesh = mesh;	
 		
 		//Create an "thin" box as a collider, it seem to work better		
-		BoxCollider boxCollider = (BoxCollider)newPlane.AddComponent("BoxCollider");
+		BoxCollider boxCollider = (BoxCollider)newPlane.AddComponent<BoxCollider>();
 		boxCollider.size = new Vector3(_planeDims.x, 0.02f, _planeDims.y);
 		
 		EndCreateGameObject(newPlane);	
@@ -102,10 +102,10 @@ public static class GameObjectUtils
 		GeometryUtils.CreateCylinderMesh(out mesh, _iRenderSubdivisionCount, _fTopRadius, _fBottomRadius, _fHeight, _bSmoothNormal, _uvTiling, _uvOffset);
 		mesh.Optimize();
 		                           
-		MeshFilter meshFilter = (MeshFilter)newCylinder.AddComponent("MeshFilter");		
+		MeshFilter meshFilter = (MeshFilter)newCylinder.AddComponent<MeshFilter>();		
 		meshFilter.mesh = mesh;	
 		
-		MeshCollider meshCollider = (MeshCollider)newCylinder.AddComponent("MeshCollider");
+		MeshCollider meshCollider = (MeshCollider)newCylinder.AddComponent<MeshCollider>();
 		meshCollider.convex = true;
 		
 		if (_iRenderSubdivisionCount != _iCollisionSubdivisionCount)
@@ -126,7 +126,7 @@ public static class GameObjectUtils
 	{
 		GameObject newBox = new GameObject ("NewBox");
 		
-		BoxCollider boxCollider = (BoxCollider)newBox.AddComponent("BoxCollider");		
+		BoxCollider boxCollider = (BoxCollider)newBox.AddComponent<BoxCollider>();		
 		boxCollider.size = _boxDims;
 		boxCollider.center = new Vector3(0.0f, _boxDims.y * 0.5f, 0.0f);
 		
@@ -134,7 +134,7 @@ public static class GameObjectUtils
 		GeometryUtils.CreateBoxMesh(out mesh, _boxDims, _uvTiling, _uvOffset);
 		mesh.Optimize();
 		
-		MeshFilter meshFilter = (MeshFilter)newBox.AddComponent("MeshFilter");		
+		MeshFilter meshFilter = (MeshFilter)newBox.AddComponent<MeshFilter>();		
 		meshFilter.mesh = mesh;	
 		
 		EndCreateGameObject(newBox);

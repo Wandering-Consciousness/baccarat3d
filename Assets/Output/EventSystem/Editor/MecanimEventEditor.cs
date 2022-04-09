@@ -12,7 +12,7 @@ public class MecanimEventEditor : EditorWindow {
 	
 	public UnityEngine.Object TargetController {
 		set {
-			targetController = value as AnimatorController;
+			targetController = value as UnityEditor.Animations.AnimatorController;
 		}
 	}
 	
@@ -20,9 +20,9 @@ public class MecanimEventEditor : EditorWindow {
 	public static MecanimEvent[] stateClipboard;
 	public static Dictionary<int, Dictionary<int, MecanimEvent[]>> controllerClipboard;
 	
-	private AnimatorController targetController;
-	private StateMachine targetStateMachine;
-	private State targetState;
+	private UnityEditor.Animations.AnimatorController targetController;
+	private UnityEditor.Animations.AnimatorStateMachine targetStateMachine;
+	private UnityEditor.Animations.AnimatorState targetState;
 	private MecanimEvent targetEvent;
 	
 	private List<MecanimEvent> displayEvents;
@@ -112,7 +112,7 @@ public class MecanimEventEditor : EditorWindow {
 	
 	Vector2 controllerPanelScrollPos;
 	int selectedController = 0;
-	AnimatorController controllerToAdd;
+	UnityEditor.Animations.AnimatorController controllerToAdd;
 	
 	void DrawControllerPanel() {
 		
@@ -121,7 +121,7 @@ public class MecanimEventEditor : EditorWindow {
 		// controller to add field.
 		GUILayout.BeginHorizontal(); {
 			
-			controllerToAdd = EditorGUILayout.ObjectField(controllerToAdd, typeof(AnimatorController), false) as AnimatorController;
+			controllerToAdd = EditorGUILayout.ObjectField(controllerToAdd, typeof(UnityEditor.Animations.AnimatorController), false) as UnityEditor.Animations.AnimatorController;
 			
 			EditorGUI.BeginDisabledGroup(controllerToAdd == null);
 			
@@ -143,7 +143,7 @@ public class MecanimEventEditor : EditorWindow {
 		GUILayout.BeginVertical("Box");
 		controllerPanelScrollPos = GUILayout.BeginScrollView(controllerPanelScrollPos);
 		
-		AnimatorController[] controllers = eventInspector.GetControllers();
+		UnityEditor.Animations.AnimatorController[] controllers = eventInspector.GetControllers();
 			
 		string [] controllerNames = new string[controllers.Length];
 		
@@ -230,10 +230,10 @@ public class MecanimEventEditor : EditorWindow {
 		
 		if (targetStateMachine != null) {
 			
-			List<State> availableStates = GetStatesRecursive(targetStateMachine);
+			List<UnityEditor.Animations.AnimatorState> availableStates = GetStatesRecursive(targetStateMachine);
 			List<string> stateNames = new List<string>();
 			
-			foreach (State s in availableStates) {
+			foreach (UnityEditor.Animations.AnimatorState s in availableStates) {
 				stateNames.Add(s.uniqueName);
 			}
 			
@@ -523,7 +523,7 @@ public class MecanimEventEditor : EditorWindow {
 		
 		Rect rect = GUILayoutUtility.GetRect(500, 10000, 50, 50);
 		
-		int timelineId = GUIUtility.GetControlID(timelineHash, FocusType.Native, rect);
+		int timelineId = GUIUtility.GetControlID(timelineHash, FocusType.Passive, rect);
 		
 		Rect thumbRect = new Rect(rect.x + rect.width * time - 5, rect.y + 2, 10, 10);
 		
@@ -711,9 +711,9 @@ public class MecanimEventEditor : EditorWindow {
 		}
 	}
 	
-	private State[] GetStates(StateMachine sm)
+	private UnityEditor.Animations.AnimatorState[] GetStates(UnityEditor.Animations.AnimatorStateMachine sm)
 	{
-		State[] array = new State[sm.stateCount];
+		UnityEditor.Animations.AnimatorState[] array = new UnityEditor.Animations.AnimatorState[sm.stateCount];
 		for (int i = 0; i < sm.stateCount; i++)
 		{
 			array[i] = sm.GetState(i);
@@ -721,9 +721,9 @@ public class MecanimEventEditor : EditorWindow {
 		return array;
 	}
 	
-	private List<State> GetStatesRecursive(StateMachine sm)
+	private List<UnityEditor.Animations.AnimatorState> GetStatesRecursive(UnityEditor.Animations.AnimatorStateMachine sm)
 	{
-		List<State> list = new List<State>();
+		List<UnityEditor.Animations.AnimatorState> list = new List<UnityEditor.Animations.AnimatorState>();
 		list.AddRange(GetStates(sm));
 		for (int i = 0; i < sm.stateMachineCount; i++)
 		{

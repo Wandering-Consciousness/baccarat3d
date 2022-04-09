@@ -76,7 +76,7 @@ public class MegaMorphAnimatorEditor : Editor
 #if UNITY_4_3
 		AnimationClip[] clips = AnimationUtility.GetAnimationClips(mod.gameObject);	//animation);
 #else
-		AnimationClip[] clips = AnimationUtility.GetAnimationClips(mod.animation);
+		AnimationClip[] clips = AnimationUtility.GetAnimationClips(mod.GetComponent<Animation>());
 #endif
 		Debug.Log("Found " + clips.Length + " clips");
 

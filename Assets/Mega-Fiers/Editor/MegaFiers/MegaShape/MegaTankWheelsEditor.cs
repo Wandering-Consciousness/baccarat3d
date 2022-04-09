@@ -11,7 +11,7 @@ public class MegaTankWheelsEditor : Editor
 		DrawDefaultInspector();
 	}
 
-	[DrawGizmo(GizmoType.NotSelected | GizmoType.Pickable | GizmoType.Selected)]
+	[DrawGizmo(GizmoType.NotInSelectionHierarchy | GizmoType.Pickable | GizmoType.Selected)]
 	static void RenderGizmo(MegaTankWheels track, GizmoType gizmoType)
 	{
 		if ( (gizmoType & GizmoType.Active) != 0 )

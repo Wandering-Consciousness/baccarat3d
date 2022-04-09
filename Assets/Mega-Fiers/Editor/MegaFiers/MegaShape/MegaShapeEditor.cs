@@ -256,7 +256,7 @@ public class MegaShapeEditor : Editor
 
 			hidewire = EditorGUILayout.Toggle("Hide Wire", hidewire);
 
-			EditorUtility.SetSelectedWireframeHidden(shape.renderer, hidewire);
+			EditorUtility.SetSelectedWireframeHidden(shape.GetComponent<Renderer>(), hidewire);
 
 			shape.animate = EditorGUILayout.Toggle("Animate", shape.animate);
 			if ( shape.animate )
@@ -901,7 +901,7 @@ public class MegaShapeEditor : Editor
 		Handles.Label(shape.transform.position, " " + shape.name);
 	}
 #endif
-	[DrawGizmo(GizmoType.NotSelected | GizmoType.Pickable | GizmoType.Selected)]
+	[DrawGizmo(GizmoType.NotInSelectionHierarchy | GizmoType.Pickable | GizmoType.Selected)]
 	static void RenderGizmo(MegaShape shape, GizmoType gizmoType)
 	{
 		//if ( (gizmoType & GizmoType.NotSelected) != 0 )
@@ -1493,7 +1493,7 @@ public class MegaShapeEditor : Editor
 	{
 		Mesh clonemesh = new Mesh();
 		clonemesh.vertices = mesh.vertices;
-		clonemesh.uv1 = mesh.uv1;
+		clonemesh.uv2 = mesh.uv2;
 		clonemesh.uv2 = mesh.uv2;
 		clonemesh.uv = mesh.uv;
 		clonemesh.normals = mesh.normals;

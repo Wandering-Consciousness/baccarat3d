@@ -151,7 +151,7 @@ public class MegaHoseEditor : Editor
 #endif
 
 
-	[DrawGizmo(GizmoType.NotSelected | GizmoType.Pickable | GizmoType.Selected)]
+	[DrawGizmo(GizmoType.NotInSelectionHierarchy | GizmoType.Pickable | GizmoType.Selected)]
 	static void RenderGizmo(MegaHose hose, GizmoType gizmoType)
 	{
 		if ( (gizmoType & GizmoType.Active) != 0 )

@@ -24,7 +24,7 @@ public class MecanimEventEmitterInspector : Editor {
 		if (animator.objectReferenceValue != null) {
 			//AnimatorController animatorController = AnimatorController.GetAnimatorController((Animator)animator.objectReferenceValue);
             // By Simon, after upgrading to Unity 4.3
-            AnimatorController animatorController = AnimatorController.GetEffectiveAnimatorController((Animator)animator.objectReferenceValue);
+            UnityEditor.Animations.AnimatorController animatorController = UnityEditor.Animations.AnimatorController.GetEffectiveAnimatorController((Animator)animator.objectReferenceValue);
 			controller.objectReferenceValue = animatorController;
 		}
 		else {
@@ -32,7 +32,7 @@ public class MecanimEventEmitterInspector : Editor {
 		}
 		
 		EditorGUIUtility.LookLikeInspector();
-		EditorGUILayout.ObjectField("AnimatorController", controller.objectReferenceValue, typeof(AnimatorController), false);
+		EditorGUILayout.ObjectField("AnimatorController", controller.objectReferenceValue, typeof(UnityEditor.Animations.AnimatorController), false);
 		
 		EditorGUILayout.PropertyField(emitType);
 
