@@ -10,7 +10,7 @@ public class MGBlendTable
 	int mTableSzXY;		// layer sz
 	int mTotalSz;			// all layers
 	float[] mpTable;	// the dither tables
-	Random mRandom;		// maxsdk pseudo-random number generator
+	// Random mRandom;		// maxsdk pseudo-random number generator // simon: Comment out in Unity 2021.2.18 import
 
 	int LayerIndex(int nImage)
 	{
