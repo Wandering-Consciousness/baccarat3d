@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1028 &1
+AssetMetaData:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  guid: 44610d807f87d44a4a53b902f18d43bd
+  pathName: Assets/Poker Pack/Objects/Materials/AllCards-Blue_15.mat
+  originalChangeset: 0
+  originalName: 
+  originalParent: 00000000000000000000000000000000
+  originalDigest:
+    serializedVersion: 2
+    md4 hash: 16
+    _typelessdata: 00000000000000000000000000000000
+  labels: []
+  assetStoreRef: 0000000000000000
+--- !u!1034 &3
+NativeFormatImporter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AllCards-Blue_22
+  m_UserData: 

@@ -1,0 +1,9 @@
+BundleName:music.unity3d
+VersionNumber:1
+
+BundleName:logobundle_01.unity3d
+VersionNumber:1
+
+BundleName:b3dbgmmusic.unity3d
+VersionNumber:1
+

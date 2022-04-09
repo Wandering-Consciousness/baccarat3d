@@ -1,0 +1,1 @@
+Add a new font in Wizard/Resources/Font and copy the font's name and paste it in Bubble Batched Manager and also give it a texture of a new font

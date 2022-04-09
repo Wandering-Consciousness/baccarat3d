@@ -1,0 +1,366 @@
+/Resources/Languages/
+
+
+btn_deal = DEAL
+
+
+btn_clear = CLEAR
+
+
+btn_rebet = REBET
+
+
+btn_menu = MENU
+
+
+btn_road = ROAD
+
+
+label_player = PLAYER
+
+
+label_banker = BANKER
+
+
+label_tie = TIE
+
+
+label_balance = BALANCE
+
+
+label_bet = TOTAL BETS
+
+
+btn_post = SHARE
+
+
+btn_close = CLOSE
+
+
+label_rank = SCORE LEADERBOARDS
+
+
+label_winner = WINNER
+
+
+label_loser = BAD LUCK!
+
+
+label_welcome = WELCOME
+
+
+label_please_cut = CUT THE DECK
+
+
+label_nice_cut = NICE CUT
+
+
+label_place_bets = PUT CHIPS ON TABLE
+
+
+label_player_has_natural = PLAYER NATURAL
+
+
+label_player_has_pair = PLAYER PAIR
+
+
+label_banker_has_natural = BANKER NATURAL
+
+
+label_banker_has_pair = BANKER PAIR
+
+
+label_player_has = PLAYER HAS
+
+
+label_player_card = PLAYER CARD
+
+
+label_banker_has = BANKER HAS
+
+
+label_banker_card = BANKER CARD
+
+
+label_tie_on = TIE ON
+
+
+label_player_wins = PLAYER WINS
+
+
+label_banker_wins = BANKER WINS
+
+
+label_tie_wins = TIE WINS
+
+
+label_nice_bet = CONGRATULATIONS
+
+
+label_excuse_me = COLLECTING LOSINGS
+
+
+label_cut_card_appears = CUT CARD DEALT
+
+
+label_last_round = LAST COUP
+
+
+label_last_round_next = NEXT COUP IS LAST
+
+
+label_bye_bye = BYE BYE
+
+
+btn_invite = FRIENDS
+
+
+btn_shop = CHIPS
+
+
+btn_home = LEAVE
+
+
+btn_score = SCORES
+
+
+btn_gryocam = AR
+
+
+btn_roadmap = ROADMAP
+
+
+label_invite_facebook_friends = INVITE FACEBOOK FRIENDS
+
+
+btn_select_all = SELECT ALL
+
+
+btn_unselect_all = UNSELECT ALL
+
+
+label_zero_balance = NO MONEY LEFT! CHARGE UP!
+
+
+label_balance_updated = BALANCE TOPPED UP!
+
+
+label_facebook_friends_invited = FRIEND(S) INVITED!
+
+
+label_facebook_score_posted = SCORE POSTED!
+
+
+label_facebook_posted = SHARED!
+
+
+btn_money_ar = MONEY TARGET AR
+
+
+btn_music = MUSIC
+
+
+btn_custom_ar = CUSTOM TARGET AR
+
+
+btn_cancel_ar = NORMAL MODE
+
+
+btn_show_casino = CASINO
+
+
+btn_hide_casino = NO CASINO
+
+
+label_facebook_score_get_fail = FAILED TO GET SCORES!
+
+
+label_wait_for_scores = SCORES UPDATING...
+
+
+label_facebook_score_getted = LATEST RANKINGS ARRIVED!
+
+
+label_facebook_score_post_fail = FAILED TO POST SCORES!
+
+
+label_facebook_invite_fail = FAILED TO INVITE!
+
+
+label_facebook_error = FACEBOOK ERROR!
+
+
+label_insufficient_balance = INSUFFICIENT BALANCE
+
+
+send_invite_facebook_friend_title = BATTLE OF THE BACCARATS
+
+
+send_invite_facebook_friend_text = Boast your balance with the high roller card game BaccARat 3D - the most real baccarat game for Android and iOS in 3D and augmented reality.
+
+
+post_facebook_message = My BaccARat 3D balance is
+
+
+post_facebook_message2 = . Come and bet with me!
+
+
+label_shop = SHOP MENU
+
+
+btn_noads = NO ADS
+
+
+btn_chip = CHIPS
+
+
+label_purchase_ok = PURCHASE OK. THANKS!
+
+
+label_purchase_ng = PURCHASE FAILED!
+
+
+label_noads_after_restart = Ads will stop displaying the next time you open the game.
+
+
+
+btn_more_games = MORE GAMES
+
+
+btn_free_chips = FREE CHIPS
+
+
+label_no_rankings = LOADING…
+
+
+label_no_fb_login = NOT LOGGED INTO FACEBOOK
+
+
+label_max_bet = MAX BET
+
+
+label_min_bet = MIN BET 
+
+
+label_help = HELP
+
+
+btn_more_help = HOW TO SQUEEZE
+
+
+btn_reenable_tutorials = TUTORIAL
+
+
+btn_tutorial_video = VIDEO
+
+
+btn_play = PLAY NOW!
+
+
+label_help_0 = BACCARAT RULES
+label_help_0a = ♦ CLOSEST TO 9 WINS ♦
+label_help_1 = Baccarat is the card game often
+label_help_2 = called the King of Casinos.
+label_help_3 = It's the card game 007 plays.
+label_help_4 = The rules are simple; you
+label_help_5 = choose the player or banker hand
+label_help_6 = to bet on and whichever is closet
+label_help_7 = to 9 wins. It is a game of pure
+label_help_8 = luck.
+label_help_9 =  ♦ 2x, 8x and 11x PAYBACK ♦
+label_help_10 = Each hand gets 2 or 3 cards
+label_help_11 = depending on rules the dealer
+label_help_12 = follows. Normal bets win double
+label_help_13 = and ties get 8 times payback.
+label_help_14 = A side bet on player/banker pairs
+label_help_15 = will payback 11x if the first two
+label_help_16 = cards have the same value.
+label_help_17 =
+label_help_18 = Cards 2-9 are worth face value,
+label_help_19 = Aces are 1. Kings, Queens, Jacks
+label_help_20 = and 10 are 0. Calculate the total
+label_help_21 = value by adding all the values and
+label_help_22 = taking the right-most digit.
+label_help_23 = E.g. Ace + 9 + 8 -> 18 will yield 8.
+label_help_24 = ♦ "SQUEEZE" LIKE A PRO ♦
+label_help_25 = Squeezing is the VIP baccarat player
+label_help_26 = way of building up the excitement by
+label_help_27 = gradually revealing the cards for
+label_help_28 = the hand you betted on. Give it ago
+label_help_29 = to really experience the baccarat
+label_help_30 = thrill!
+label_help_31 = ♦ AR ♦
+label_help_32 = Enjoy a real 3D experience by playing
+label_help_33 = in gyrocam or Augmented Reality modes,
+label_help_34 = available from the AR and eye buttons.
+label_help_35 =
+label_help_36 = BaccARat 3D v1.0.16 © Aroha 2014 
+label_help_37 = http://www.baccarat3d.net
+label_help_38 = info@aroha.mobi
+
+label_insufficient_bets = CAN'T BET ONLY PAIRS
+
+
+btn_show_table = TABLE
+
+
+btn_hide_table = NO TABLE
+
+
+label_ar_bonus = AR BONUS
+
+
+label_you_win = CONGRATULATIONS!
+
+label_link_facebook_01 = You are not yet connected to Facebook.
+label_link_facebook_02 = 
+label_link_facebook_03 = Connect BaccARat 3D to Facebook to
+label_link_facebook_04 = share your scores with your friends.
+label_link_facebook_05 =
+label_link_facebook_06 = Get $500 bonus for every friend you
+label_link_facebook_07 = invite.
+label_link_facebook_08 = 
+label_link_facebook_09 = We will not spam your timeline with
+label_link_facebook_10 = BaccARat 3D updates. Only your friends
+label_link_facebook_11 = that also use this game can see you
+label_link_facebook_12 = on the scoreboard.
+
+
+btn_connect_facebook = CONNECT
+
+
+label_ar_treasure_hunt_bonus = AR TREASURE
+
+
+label_link_googlegames_01 = Play with fellow BaccARat 3D players
+label_link_googlegames_02 = by joining the Global Rankings and
+label_link_googlegames_03 = win a $10,000 sign-up bonus!
+label_link_googlegames_04 =
+label_link_googlegames_05 = There are daily, weekly and
+label_link_googlegames_06 = overall leaderboards.
+label_link_googlegames_07 =
+label_link_googlegames_08 = Joining will also allow you to
+label_link_googlegames_09 = save your balance in the cloud
+label_link_googlegames_10 = to use on other devices and if
+label_link_googlegames_11 = you re-install the app.
+
+
+btn_gpg_logon = JOIN
+
+
+btn_global_ranking_long = GLOBAL LEADERBOARDS
+
+
+btn_global_ranking_short = GLOBAL
+
+
+label_gpg_bonus = JOIN BONUS
+
+
+label_loaded_cloud_balance = GOT BALANCE FROM SERVER
+
+
+label_tapjoy_bonus = BONUS!
+
+
+btn_restore_purchases = Restore Past Purchases

@@ -1,0 +1,4 @@
+Assets/Poker[[:space:]]Pack/Textures/PlayingCards2DMobile.psd filter=lfs diff=lfs merge=lfs -text
+Assets/Poker[[:space:]]Pack/Textures/PlayingCards2DMobileLarge_03.psd filter=lfs diff=lfs merge=lfs -text
+BaccARat3D_Data/sharedassets0.assets filter=lfs diff=lfs merge=lfs -text
+Assets/Poker[[:space:]]Pack/Textures/PlayingCards2DMobileLarge.psd filter=lfs diff=lfs merge=lfs -text

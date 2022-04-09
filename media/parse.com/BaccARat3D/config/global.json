@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "BaccARat 3D": {
+            "applicationId": "qumdR4M8WQonvF8eVnF50xayGKOi2EqxIC7tCm5f", 
+            "masterKey": "ccdP6xrPGzHBDeNl6kGQblJO5uULb5LW6EkU9Z52"
+        }, 
+        "_default": {
+            "link": "BaccARat 3D"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.19"
+    }
+}

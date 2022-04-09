@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: eeb964939be9c21449443c5a6643ba71
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bip01 Footsteps
+    100002: C_D_F_Bip01
+    100004: C_D_F_Bip01 Head
+    100006: C_D_F_Bip01 HeadNub
+    100008: C_D_F_Bip01 L Calf
+    100010: C_D_F_Bip01 L Clavicle
+    100012: C_D_F_Bip01 L Finger0
+    100014: C_D_F_Bip01 L Finger01
+    100016: C_D_F_Bip01 L Finger02
+    100018: C_D_F_Bip01 L Finger0Nub
+    100020: C_D_F_Bip01 L Finger1
+    100022: C_D_F_Bip01 L Finger11
+    100024: C_D_F_Bip01 L Finger12
+    100026: C_D_F_Bip01 L Finger1Nub
+    100028: C_D_F_Bip01 L Finger2
+    100030: C_D_F_Bip01 L Finger21
+    100032: C_D_F_Bip01 L Finger22
+    100034: C_D_F_Bip01 L Finger2Nub
+    100036: C_D_F_Bip01 L Finger3
+    100038: C_D_F_Bip01 L Finger31
+    100040: C_D_F_Bip01 L Finger32
+    100042: C_D_F_Bip01 L Finger3Nub
+    100044: C_D_F_Bip01 L Finger4
+    100046: C_D_F_Bip01 L Finger41
+    100048: C_D_F_Bip01 L Finger42
+    100050: C_D_F_Bip01 L Finger4Nub
+    100052: C_D_F_Bip01 L Foot
+    100054: C_D_F_Bip01 L Forearm
+    100056: C_D_F_Bip01 L Hand
+    100058: C_D_F_Bip01 L Thigh
+    100060: C_D_F_Bip01 L Toe0
+    100062: C_D_F_Bip01 L Toe0Nub
+    100064: C_D_F_Bip01 L UpperArm
+    100066: C_D_F_Bip01 Neck
+    100068: C_D_F_Bip01 Pelvis
+    100070: C_D_F_Bip01 R Calf
+    100072: C_D_F_Bip01 R Clavicle
+    100074: C_D_F_Bip01 R Finger0
+    100076: C_D_F_Bip01 R Finger01
+    100078: C_D_F_Bip01 R Finger02
+    100080: C_D_F_Bip01 R Finger0Nub
+    100082: C_D_F_Bip01 R Finger1
+    100084: C_D_F_Bip01 R Finger11
+    100086: C_D_F_Bip01 R Finger12
+    100088: C_D_F_Bip01 R Finger1Nub
+    100090: C_D_F_Bip01 R Finger2
+    100092: C_D_F_Bip01 R Finger21
+    100094: C_D_F_Bip01 R Finger22
+    100096: C_D_F_Bip01 R Finger2Nub
+    100098: C_D_F_Bip01 R Finger3
+    100100: C_D_F_Bip01 R Finger31
+    100102: C_D_F_Bip01 R Finger32
+    100104: C_D_F_Bip01 R Finger3Nub
+    100106: C_D_F_Bip01 R Finger4
+    100108: C_D_F_Bip01 R Finger41
+    100110: C_D_F_Bip01 R Finger42
+    100112: C_D_F_Bip01 R Finger4Nub
+    100114: C_D_F_Bip01 R Foot
+    100116: C_D_F_Bip01 R Forearm
+    100118: C_D_F_Bip01 R Hand
+    100120: C_D_F_Bip01 R Thigh
+    100122: C_D_F_Bip01 R Toe0
+    100124: C_D_F_Bip01 R Toe0Nub
+    100126: C_D_F_Bip01 R UpperArm
+    100128: C_D_F_Bip01 Spine
+    100130: C_D_F_Bip01 Spine1
+    100132: C_D_F_Bip01 Spine2
+    100134: C_Dealer_F
+    100136: //RootNode
+    400000: Bip01 Footsteps
+    400002: C_D_F_Bip01
+    400004: C_D_F_Bip01 Head
+    400006: C_D_F_Bip01 HeadNub
+    400008: C_D_F_Bip01 L Calf
+    400010: C_D_F_Bip01 L Clavicle
+    400012: C_D_F_Bip01 L Finger0
+    400014: C_D_F_Bip01 L Finger01
+    400016: C_D_F_Bip01 L Finger02
+    400018: C_D_F_Bip01 L Finger0Nub
+    400020: C_D_F_Bip01 L Finger1
+    400022: C_D_F_Bip01 L Finger11
+    400024: C_D_F_Bip01 L Finger12
+    400026: C_D_F_Bip01 L Finger1Nub
+    400028: C_D_F_Bip01 L Finger2
+    400030: C_D_F_Bip01 L Finger21
+    400032: C_D_F_Bip01 L Finger22
+    400034: C_D_F_Bip01 L Finger2Nub
+    400036: C_D_F_Bip01 L Finger3
+    400038: C_D_F_Bip01 L Finger31
+    400040: C_D_F_Bip01 L Finger32
+    400042: C_D_F_Bip01 L Finger3Nub
+    400044: C_D_F_Bip01 L Finger4
+    400046: C_D_F_Bip01 L Finger41
+    400048: C_D_F_Bip01 L Finger42
+    400050: C_D_F_Bip01 L Finger4Nub
+    400052: C_D_F_Bip01 L Foot
+    400054: C_D_F_Bip01 L Forearm
+    400056: C_D_F_Bip01 L Hand
+    400058: C_D_F_Bip01 L Thigh
+    400060: C_D_F_Bip01 L Toe0
+    400062: C_D_F_Bip01 L Toe0Nub
+    400064: C_D_F_Bip01 L UpperArm
+    400066: C_D_F_Bip01 Neck
+    400068: C_D_F_Bip01 Pelvis
+    400070: C_D_F_Bip01 R Calf
+    400072: C_D_F_Bip01 R Clavicle
+    400074: C_D_F_Bip01 R Finger0
+    400076: C_D_F_Bip01 R Finger01
+    400078: C_D_F_Bip01 R Finger02
+    400080: C_D_F_Bip01 R Finger0Nub
+    400082: C_D_F_Bip01 R Finger1
+    400084: C_D_F_Bip01 R Finger11
+    400086: C_D_F_Bip01 R Finger12
+    400088: C_D_F_Bip01 R Finger1Nub
+    400090: C_D_F_Bip01 R Finger2
+    400092: C_D_F_Bip01 R Finger21
+    400094: C_D_F_Bip01 R Finger22
+    400096: C_D_F_Bip01 R Finger2Nub
+    400098: C_D_F_Bip01 R Finger3
+    400100: C_D_F_Bip01 R Finger31
+    400102: C_D_F_Bip01 R Finger32
+    400104: C_D_F_Bip01 R Finger3Nub
+    400106: C_D_F_Bip01 R Finger4
+    400108: C_D_F_Bip01 R Finger41
+    400110: C_D_F_Bip01 R Finger42
+    400112: C_D_F_Bip01 R Finger4Nub
+    400114: C_D_F_Bip01 R Foot
+    400116: C_D_F_Bip01 R Forearm
+    400118: C_D_F_Bip01 R Hand
+    400120: C_D_F_Bip01 R Thigh
+    400122: C_D_F_Bip01 R Toe0
+    400124: C_D_F_Bip01 R Toe0Nub
+    400126: C_D_F_Bip01 R UpperArm
+    400128: C_D_F_Bip01 Spine
+    400130: C_D_F_Bip01 Spine1
+    400132: C_D_F_Bip01 Spine2
+    400134: C_Dealer_F
+    400136: //RootNode
+    2300000: C_Dealer_F
+    3300000: C_Dealer_F
+    4300000: C_Dealer_F
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 0
+  userData: 

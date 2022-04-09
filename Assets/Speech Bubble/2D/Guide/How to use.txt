@@ -1,0 +1,24 @@
+speech.Stop(); 
+// stop saying whatever it is saying right away
+// Stops whatever it is saying
+
+
+speech.Say(string, 3); 
+// say for 3 seconds
+
+
+speech.Say(string); 
+// Say() without duration can stop by calling Stop() or call Say() with duration again
+
+
+speech.SayNewLine(string, 3); 
+// New line process is heavier since it does string operation so don't use it
+// if you don't have a new line
+
+
+speech.SayNewLine(string); 
+// Infinitely, need to be stopped by calling Stop() or call another Say()
+
+
+speech.Print(string);
+// Print only the text center aligned

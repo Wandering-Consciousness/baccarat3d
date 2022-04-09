@@ -1,0 +1,11 @@
+BundleName:music.unity3d
+NumberOfAssets:1
+BaccARat3D_Song1.mp3
+BundleName:logobundle_01.unity3d
+NumberOfAssets:2
+pre_cryWolfLogo.prefab
+pre_cryWolfLogo_url.prefab
+BundleName:b3dbgmmusic.unity3d
+NumberOfAssets:2
+BaccARat3D_Song1.mp3
+Music.prefab

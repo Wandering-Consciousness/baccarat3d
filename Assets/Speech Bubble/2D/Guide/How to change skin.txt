@@ -1,0 +1,1 @@
+Change skin in Speech Manager, if you want to change the color of skin, replace the textures in 2D/Images

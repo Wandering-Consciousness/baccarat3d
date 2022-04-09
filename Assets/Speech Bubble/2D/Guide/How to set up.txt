@@ -1,0 +1,38 @@
+(Youtube video is live)
+
+
+1. place "Speech Manager" in your scene from the folder
+
+
+2. Drag and drop your main camera into Cam and CamT.
+
+
+3. Make a new empty GameObject named "Speech Holder" and make it a child of your character
+and place it above its head
+
+
+4. Open your hero's script then add below two variables on top
+
+private var speech : Speech; 	// this entity's speech reference
+
+var speechHolder : Transform; 	// position where speech bubble will stay, preferably right above a head
+
+
+5. Add this function somewhere also
+
+function SetSpeech()
+{
+	speech = Instantiate(SpeechManager.bubble, Vector3.zero, Quaternion.identity).GetComponent(Speech);	
+	speech.holder = speechHolder; // pass holder
+	speech.Stop();
+}
+
+
+6. Call SetSpeech(); at your Start()
+
+
+7. Save the script, back to editor, give the reference of "Speech Holder" we made ealier
+to your hero's script
+
+
+Now everying is set up and you can use a speech bubble!

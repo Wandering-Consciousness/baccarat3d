@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CEDFENCE
+  m_Shader: {fileID: 3, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 3207b430edc2296489905accf875c9d8, type: 3}
+          m_Scale: {x: 2, y: 2}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Reflection
+        second:
+          m_Texture: {fileID: 2800000, guid: 863abaad9d11184d110074aa44295342, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 4b8d081e9d114c7f1100f5ab44295342, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 8ffa5a8649d0f95468cfdf60fb9d7386, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionTex
+        second:
+          m_Texture: {fileID: 2800000, guid: a7eaeac05a54fb24a9b801b6507ee8f2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ShoreTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Foam
+        second:
+          m_Texture: {fileID: 2800000, guid: 4d588b086ca47424198122987e438982, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Refraction
+        second:
+          m_Texture: {fileID: 2800000, guid: fa088f1c47b49824eb168dcd5a6ab98d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Fresnel
+        second:
+          m_Texture: {fileID: 2800000, guid: fa088f1c47b49824eb168dcd5a6ab98d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Bump
+        second:
+          m_Texture: {fileID: 2800000, guid: fa4d8b3767034664e8334bc0f05919c8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Caustics
+        second:
+          m_Texture: {fileID: 2800000, guid: eb9e91ee4c264b942a46baeec92ca0a4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Reflection
+        second: .442307711
+      data:
+        first:
+          name: _Shininess
+        second: 2.2928915
+      data:
+        first:
+          name: _Gloss
+        second: .25
+      data:
+        first:
+          name: _FrezPow
+        second: 590.769287
+      data:
+        first:
+          name: _FrezFalloff
+        second: 1.15384614
+      data:
+        first:
+          name: _EdgeAlpha
+        second: .574626863
+      data:
+        first:
+          name: _Metalics
+        second: .525545359
+      data:
+        first:
+          name: _BumpAmt
+        second: 81.3846207
+      data:
+        first:
+          name: _Density
+        second: .0309988502
+      data:
+        first:
+          name: _FresnelScale
+        second: .75
+      data:
+        first:
+          name: _GerstnerIntensity
+        second: 1
+      data:
+        first:
+          name: _SunPower
+        second: .326923072
+      data:
+        first:
+          name: _RefractionLevel
+        second: .0500000007
+      data:
+        first:
+          name: _BendA
+        second: .0500000007
+      data:
+        first:
+          name: _BendB
+        second: .0500000007
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .49253732, g: .49253732, b: .49253732, a: .529411793}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .514925361, g: .514925361, b: .514925361, a: .549019635}
+      data:
+        first:
+          name: _Foam
+        second: {r: .100000001, g: .375, b: 0, a: 0}
+      data:
+        first:
+          name: _ReflectColor
+        second: {r: .208955228, g: .208955228, b: .208955228, a: 1}
+      data:
+        first:
+          name: _DistortParams
+        second: {r: 1, g: 1, b: 2, a: 1.14999998}
+      data:
+        first:
+          name: _InvFadeParemeter
+        second: {r: .150000006, g: .150000006, b: .5, a: 1}
+      data:
+        first:
+          name: _AnimationTiling
+        second: {r: 2.20000005, g: 2.20000005, b: -1.10000002, a: -1.10000002}
+      data:
+        first:
+          name: _AnimationDirection
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _BumpTiling
+        second: {r: 1, g: 1, b: -2, a: 3}
+      data:
+        first:
+          name: _BumpDirection
+        second: {r: 1, g: 1, b: -1, a: 1}
+      data:
+        first:
+          name: _BaseColor
+        second: {r: .540000021, g: .949999988, b: .99000001, a: .5}
+      data:
+        first:
+          name: _ReflectionColor
+        second: {r: .540000021, g: .949999988, b: .99000001, a: .5}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: .720000029, g: .720000029, b: .720000029, a: 1}
+      data:
+        first:
+          name: _WorldLightDir
+        second: {r: 0, g: .100000001, b: -.5, a: 0}
+      data:
+        first:
+          name: _GAmplitude
+        second: {r: .300000012, g: .349999994, b: .25, a: .25}
+      data:
+        first:
+          name: _GFrequency
+        second: {r: 1.29999995, g: 1.35000002, b: 1.25, a: 1.25}
+      data:
+        first:
+          name: _GSteepness
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _GSpeed
+        second: {r: 1.20000005, g: 1.375, b: 1.10000002, a: 1.5}
+      data:
+        first:
+          name: _GDirectionAB
+        second: {r: .300000012, g: .850000024, b: .850000024, a: .25}
+      data:
+        first:
+          name: _GDirectionCD
+        second: {r: .100000001, g: .899999976, b: .5, a: .5}
+      data:
+        first:
+          name: _SurfaceColor
+        second: {r: .455223858, g: .455223858, b: .455223858, a: .266666681}
+      data:
+        first:
+          name: _WaterColor
+        second: {r: .664179087, g: .262697726, b: .262697726, a: .741176486}
+      data:
+        first:
+          name: _SunColor
+        second: {r: .5, g: .5, b: .5, a: .694117665}
+      data:
+        first:
+          name: _Size
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SunPosition
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Transparency
+        second: {r: .5, g: .5, b: .5, a: .631372571}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

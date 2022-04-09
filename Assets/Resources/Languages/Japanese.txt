@@ -1,0 +1,358 @@
+/Resources/Languages/
+
+
+btn_deal = スタート
+
+
+btn_clear = クリア
+
+
+btn_rebet = 同ベット
+
+
+btn_menu = 戻る
+
+
+btn_road = 罫線
+
+
+label_player = プレイヤー
+
+
+label_tie = タイ
+
+
+label_banker = バンカー
+
+
+label_balance = 残高
+
+
+label_bet = BET合計
+
+
+btn_post = 投稿
+
+
+btn_close = 閉じる
+
+
+label_rank = ランキング
+
+
+label_winner = 本日のトップ
+
+
+label_loser = 残念！
+
+
+label_welcome = いらっしゃいませ
+
+
+label_please_cut = カットしてください
+
+
+label_nice_cut = ナイスカット!
+
+
+label_place_bets = チップを置いてください
+
+
+label_player_has_natural = プレイヤーナチュラル
+
+
+label_player_has_pair = プレイヤーペア
+
+
+label_banker_has_natural = バンカーナチュラル
+
+
+label_banker_has_pair = バンカーペア
+
+
+label_player_has = プレイヤー
+
+
+label_player_card = プレイヤーカード
+
+
+label_banker_has = バンカー
+
+
+label_banker_card = バンカーカード
+
+
+label_tie_on = タイ
+
+
+label_player_wins = プレイヤーの勝ち
+
+
+label_banker_wins = バンカーの勝ち
+
+
+label_tie_wins = ドロー
+
+
+label_nice_bet = ナイスベット！
+
+
+label_excuse_me = 失礼します
+
+
+label_cut_card_appears = カットカードが出ました
+
+
+label_last_round = 今回シューターラストです
+
+
+label_last_round_next = 次回シューターラストです
+
+
+label_bye_bye = お疲れ様でした
+
+
+btn_invite = 招待
+
+
+btn_shop = ショップ
+
+
+btn_home = 退席
+
+
+btn_score = スコア
+
+
+btn_gryocam = AR
+
+
+btn_roadmap = 罫線
+
+
+label_invite_facebook_friends = FACEBOOKの友達を招待しよう！
+
+
+btn_select_all = 全て選択
+
+
+btn_unselect_all = 選択解除
+
+
+label_zero_balance = ノー残高！チャージしてね！
+
+
+label_balance_updated = チャージしました
+
+
+label_facebook_friends_invited = 友達を招待した
+
+
+label_facebook_score_posted = 残高を投稿した
+
+
+label_facebook_posted = 投稿した
+
+
+btn_money_ar = 千円札にかざしてのAR
+
+
+btn_music = 音楽
+
+
+btn_custom_ar = 撮影してかざしてのAR
+
+
+btn_cancel_ar = 通常表示に戻る
+
+
+btn_show_casino = 部屋オン
+
+
+btn_hide_casino = 部屋オフ
+
+
+label_facebook_score_get_fail = ランク取得に失敗した!
+
+
+label_wait_for_scores = ランクが間もなく届く・・・
+
+
+label_facebook_score_getted = 最新ランクをゲットした！
+
+
+label_facebook_score_post_fail = 投稿に失敗した!
+
+
+label_facebook_invite_fail = 招待に失敗した
+
+
+label_facebook_error = Facebook エラー!
+
+
+label_insufficient_balance = 残高不足
+
+
+send_invite_facebook_friend_title = バカラで戦いましょう！
+
+
+send_invite_facebook_friend_text = バカラ３Dへ招待しています。３Dカジノにて通常やARで遊べ残高を投稿し友達にどれだけお金持ちかを自慢しましょう！AndroidとiPhone・iPadを対応しています。
+
+
+post_facebook_message = バカラ3Dのスコアは
+
+
+post_facebook_message2 = です。一緒に賭けてみませんか？
+
+
+label_shop = 購入メニュー
+
+
+btn_noads = 広告をなくす
+
+
+btn_chip = チップ
+
+
+label_purchase_ok = ご購入ありがとうございます
+
+
+label_purchase_ng = 購入に失敗した
+
+
+label_noads_after_restart = 広告は今度ゲームをリスタートしたときから非表示されます
+
+
+btn_more_games = おすすめアプリ
+
+
+btn_free_chips = 無料チップ
+
+
+
+label_no_rankings = ランキング読み込み中・・・
+
+
+label_no_fb_login = Facebookにログインしていません
+
+
+label_max_bet = MAXベットが
+
+
+label_min_bet = MINベットが
+
+
+label_help = ヘルプ
+
+
+btn_more_help = 詳しい絞り方の説明
+
+
+btn_reenable_tutorials = 練習モード
+
+
+btn_tutorial_video = やり方の紹介ビデオ
+
+
+btn_play = 今すぐ賭けてみる！
+
+label_help_0 = バカラのルール
+label_help_1 = バカラとは、『PLAYER』か『BANKER』
+label_help_2 = のどちらが、勝つかを予想して賭ける
+label_help_3 = カジノゲーム。
+label_help_4 = ♦ 9に近い方が勝ち！♦
+label_help_5 = 『PLAYER』か『BANKER』のどちらか、
+label_help_6 = 又はタイにBETし（=賭ける)、ディーラー
+label_help_7 = がカードを配る。カードは条件によって、
+label_help_8 = ２、３枚。合計が９に近い方が勝ち。
+label_help_9 = 同点の場合は「タイの勝ち」(引け分け)。
+label_help_10 = ♦ 通常２倍、タイ８倍、ペア１１倍！ ♦
+label_help_11 = 『プレイヤー』『バンカー』に賭けて勝つと、
+label_help_12 = BETの２倍が戻ってくる。『タイ』は８倍！
+label_help_13 = サイドベット(横のベット)の『PLAYERペア』
+label_help_14 = か『BANKERペア』に賭けて当たると１１倍
+label_help_15 = 戻ってくる！
+label_help_16 =
+label_help_17 = 普通の数字カード（２から９まで）は数字通り。
+label_help_18 = １０と絵札（J、Q、K）は「０」とカウントする。
+label_help_19 = Aは「１」。
+label_help_20 = ♦ 絞り ♦
+label_help_21 = "絞って"みよう！ VIPのお客さんは、配れた
+label_help_22 = カードを少しずつめくって数字を見る。これ
+label_help_23 = はバカラゲームの最大の楽しみ！
+label_help_24 = "絞る"ことを覚えて、カジノのVIPになろう！
+label_help_25 = ♦ AR ♦
+label_help_26 = 「AR」や目のボタンから、拡張現実や世界
+label_help_27 = カメラの体験を楽しめるよ！ぜひ使ってみて！
+label_help_28 =
+label_help_29 = BaccARat 3D v1.0.16 © Aroha 2014 
+label_help_30 = http://www.baccarat3d.net
+label_help_31 = info@aroha.mobi
+
+
+label_insufficient_bets = ペアのみのベットは出来ません
+
+
+btn_show_table = テーブルオン
+
+
+btn_hide_table = テーブルオフ
+
+
+label_ar_bonus = ARボーナス
+
+
+label_you_win = YOU WIN!
+
+
+label_link_facebook_01 = “バカラ3D“はまだFacebookと連携していません。
+label_link_facebook_02 = 
+label_link_facebook_03 = Facebookに連携させると、バカラ3Dで遊ぶ友達
+label_link_facebook_04 = とのスコアランキングに参加できます。
+label_link_facebook_05 =
+label_link_facebook_06 = 友達を招待すると、$500ボーナスがもらえます！
+label_link_facebook_07 =
+label_link_facebook_08 = 投稿ボタンを押さない限り、Facebookに投稿
+label_link_facebook_09 = はされません。
+label_link_facebook_10 = 
+label_link_facebook_11 = スコアを共有できるのは、バカラ3D
+label_link_facebook_12 = の参加者のみです。
+
+
+btn_connect_facebook = FACEBOOK
+
+
+label_ar_treasure_hunt_bonus = AR宝探しボーナス
+
+仲間と世界ランキングに参加できます。
+
+label_link_googlegames_01 = 世界中の“バカラ3D”で遊ぶ仲間と
+label_link_googlegames_02 = 世界ランキングに参加できます。
+label_link_googlegames_03 = 更に$10,000をゲット！
+label_link_googlegames_04 =
+label_link_googlegames_05 = 一日・一週間・合計のランキングがあります。
+label_link_googlegames_06 =
+label_link_googlegames_07 = 残高はクラウドに保存され、別の端末に
+label_link_googlegames_08 = 変えたりアプリを再インストールしても、
+label_link_googlegames_09 = データを維持することができます。
+
+
+btn_gpg_logon = 参加
+
+
+btn_global_ranking_long = 世界ランキング
+
+
+btn_global_ranking_short = 世界ランク
+
+
+label_gpg_bonus = 参加ボーナス
+
+
+label_loaded_cloud_balance = サーバから残高を更新した
+
+
+label_tapjoy_bonus = ボーナス!
+
+
+btn_restore_purchases = 購入済みのアイテムをリストア

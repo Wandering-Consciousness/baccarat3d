@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="mobi.aroha.baccarat3d" android:installLocation="preferExternal" android:theme="@android:style/Theme.NoTitleBar" android:versionCode="2" android:versionName="1.0.15">
+  <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="19" />
+  <uses-feature android:name="android.hardware.camera" />
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="com.android.vending.BILLING" />
+  <uses-permission android:name="com.sec.android.iap.permission.BILLING" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <!--
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    -->
+  <permission android:name="mobi.aroha.baccarat3d.permission.C2D_MESSAGE" androidrotectionLevel="signature" />
+  <application android:debuggable="false" android:icon="@drawable/app_icon" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+    <activity android:name="mobi.aroha.baccarat3d.BaccARat3DNativeActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:label="@string/app_name" android:launchMode="singleTask" android:screenOrientation="sensor">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <meta-data android:name="android.app.lib_name" android:value="unity" />
+      <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="true" />
+    </activity>
+    <!-- Unity3d Activities -->
+    <!-- Custom Unity3d Activities that inherit the Vuforia ones -->
+    <activity android:name="com.unity3d.player.VideoPlayer" android:configChanges="keyboard|keyboardHidden|orientation" android:label="@string/app_name" android:screenOrientation="sensor" />
+    <!-- Facebook SNS Activities -->
+    <activity android:name="com.facebook.LoginActivity" android:label="@string/app_name" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <activity android:name="com.neatplug.u3d.plugins.facebook.FriendPickerActivity" android:label="@string/app_name" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <!-- Chartboost ads -->
+    <activity android:name="com.chartboost.sdk.CBImpressionActivity" android:excludeFromRecents="true" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <!-- RevMob ads -->
+    <activity android:name="com.revmob.ads.fullscreen.FullscreenActivity" android:configChanges="keyboardHidden|orientation" android:theme="@android:style/Theme.Translucent">
+    </activity>
+    <!-- AppC Core Setting Start -->
+    <meta-data android:name="appc_media_key" android:value="5ffd5d70c6837348458f08020ed8e74511b38f58" />
+    <activity android:name="net.app_c.cloud.sdk.AppCAdActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|uiMode|touchscreen" android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+    <activity android:name="net.app_c.cloud.sdk.AppCRecoveryActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|uiMode|touchscreen" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+    <activity android:name="net.app_c.cloud.sdk.AppCAgreementActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|uiMode|touchscreen" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+    <!-- AppC Core Setting End -->
+    <!-- AppC Gamers Setting Start -->
+    <activity android:name="net.app_c.cloud.sdk.AppCGamersActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|uiMode|touchscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+    </activity>
+    <!-- AppC Gamers Setting End -->
+    <!-- AppC Purchase Setting Start -->
+    <activity android:name="net.app_c.cloud.sdk.AppCPurchaseActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|uiMode|touchscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+    </activity>
+    <!-- AppC Purchase Setting End -->
+    <!-- AppC Reward Setting Start -->
+    <activity android:name="net.app_c.cloud.sdk.AppCRewardActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|uiMode|touchscreen" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+    </activity>
+    <!-- AppC Reward Setting End -->
+    <!-- AppC Core Setting Start -->
+    <receiver android:name="net.app_c.cloud.sdk.AppCIDReceiver">
+      <intent-filter>
+        <action android:name="jp.co.cayto.appc.sdk.android.remote.command.gid.search" />
+        <action android:name="jp.co.cayto.appc.sdk.android.remote.command.gid.set" />
+        <action android:name="jp.co.cayto.appc.sdk.android.remote.command.gid.remove" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="net.app_c.cloud.sdk.AppCPkgReceiver" android:enabled="true" android:exported="false" android:label="BootStrap">
+      <intent-filter>
+        <action android:name="android.intent.action.PACKAGE_ADDED" />
+        <data android:scheme="package">
+        </data>
+      </intent-filter>
+    </receiver>
+    <!-- AppC Core Setting End -->
+    <!-- AppC Push Setting Start -->
+    <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+        <category android:name="mobi.aroha.baccarat3d" />
+      </intent-filter>
+    </receiver>
+    <service android:name="net.app_c.cloud.sdk.AppCPushService" />
+    <!-- AppC Push Setting End -->
+    <!-- Amazon IAP Receivers -->
+    <receiver android:name="com.amazon.inapp.purchasing.ResponseReceiver">
+      <intent-filter>
+        <action android:name="com.amazon.inapp.purchasing.NOTIFY" android:permission="com.amazon.inapp.purchasing.Permission.NOTIFY" />
+      </intent-filter>
+    </receiver>
+    <!-- Tap for Tap ads -->
+    <!--
+         TODO: remove TEST part later!!
+         <meta-data
+         android:name="com.tapfortap.TEST_MODE"
+         android:value="true"/>
+        -->
+    <meta-data android:name="com.tapfortap.API_KEY" android:value="de6b6a77d0f5c6df0b9359d7940c4945" />
+    <activity android:name="com.tapfortap.TapForTapActivity" />
+    <activity android:name="com.tapfortap.FullScreenAdActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    <!-- Tapjoy -->
+    <activity android:name="com.tapjoy.TJCOffersWebView" android:configChanges="keyboardHidden|orientation|screenSize" />
+    <activity android:name="com.tapjoy.TapjoyFullScreenAdWebView" android:configChanges="keyboardHidden|orientation|screenSize" />
+    <activity android:name="com.tapjoy.TapjoyDailyRewardAdWebView" android:configChanges="keyboardHidden|orientation|screenSize" />
+    <activity android:name="com.tapjoy.TapjoyVideoView" android:configChanges="keyboardHidden|orientation|screenSize" />
+    <activity android:name="com.tapjoy.TJAdUnitView" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+    <activity android:name="com.tapjoy.mraid.view.ActionHandler" android:configChanges="keyboardHidden|orientation|screenSize" />
+    <activity android:name="com.tapjoy.mraid.view.Browser" android:configChanges="keyboardHidden|orientation|screenSize" />
+    <activity android:name="com.facebook.unity.FBUnityLoginActivity" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+    </activity>
+    <activity android:name="com.facebook.unity.FBUnityDeepLinkingActivity" android:exported="true">
+    </activity>
+    <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="\ 662062447141117" />
+  </application>
+</manifest>

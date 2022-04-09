@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com.neatplug.samsungiap.pleasewait">请稍候...</string>
+    <string name="com.neatplug.samsungiap.update">更新</string>
+    <string name="com.neatplug.samsungiap.cancel">取消</string>
+    <string name="com.neatplug.samsungiap.iaptitle">三星应用内付费</string>
+    <string name="com.neatplug.samsungiap.iapupdaterequired">您需要更新三星应用内付费程序包到最新版本，才能在本应用内进行购买。</string>   
+</resources>

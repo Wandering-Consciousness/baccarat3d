@@ -1,0 +1,72 @@
+
+2014-04-13 13:29:43.703 baccarat3d[680:60b] -> registered mono modules 0x11adcb0
+-> applicationDidFinishLaunching()
+-> applicationDidBecomeActive()
+Mono path[0] = '/var/mobile/Applications/E3414AB4-E56A-4747-961B-DACCC65EF263/baccarat3d.app/Data/Managed'
+Mono config path = '/var/mobile/Applications/E3414AB4-E56A-4747-961B-DACCC65EF263/baccarat3d.app/Data/Managed'
+Renderer: PowerVR SGX 543
+Vendor:   Imagination Technologies
+Version:  OpenGL ES 2.0 IMGSGX543-97
+GL_OES_depth_texture GL_OES_depth24 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_vertex_array_object GL_EXT_blend_minmax GL_EXT_color_buffer_half_float GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_discard_framebuffer GL_EXT_draw_instanced GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_EXT_occlusion_query_boolean GL_EXT_pvrtc_sRGB GL_EXT_read_format_bgra GL_EXT_separate_shader_objects GL_EXT_shader_framebuffer_fetch GL_EXT_shader_texture_lod GL_EXT_shadow_samplers GL_EXT_sRGB GL_EXT_texture_filter_anisotropic GL_EXT_texture_rg GL_EXT_texture_storage GL_APPLE_copy_texture_levels GL_APPLE_framebuffer_multisample GL_APPLE_rgb_422 GL_APPLE_sync GL_APPLE_texture_format_BGRA8888 GL_APPLE_texture_max_level GL_IMG_read_format GL_IMG_texture_compression_pvrtc 
+Creating OpenGLES2.0 graphics device
+Initialize engine version: 4.3.4f1 (e444f76e01cd)
+Begin MonoManager ReloadAssembly
+Platform assembly: /var/mobile/Applications/E3414AB4-E56A-4747-961B-DACCC65EF263/baccarat3d.app/Data/Managed/UnityEngine.dll (this message is harmless)
+Loading /var/mobile/Applications/E3414AB4-E56A-4747-961B-DACCC65EF263/baccarat3d.app/Data/Managed/UnityEngine.dll into Unity Child Domain
+Platform assembly: /var/mobile/Applications/E3414AB4-E56A-4747-961B-DACCC65EF263/baccarat3d.app/Data/Managed/Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading /var/mobile/Applications/E3414AB4-E56A-4747-961B-DACCC65EF263/baccarat3d.app/Data/Managed/Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: /var/mobile/Applications/E3414AB4-E56A-4747-961B-DACCC65EF263/baccarat3d.app/Data/Managed/Assembly-CSharp.dll (this message is harmless)
+Loading /var/mobile/Applications/E3414AB4-E56A-4747-961B-DACCC65EF263/baccarat3d.app/Data/Managed/Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: /var/mobile/Applications/E3414AB4-E56A-4747-961B-DACCC65EF263/baccarat3d.app/Data/Managed/Assembly-UnityScript.dll (this message is harmless)
+Loading /var/mobile/Applications/E3414AB4-E56A-4747-961B-DACCC65EF263/baccarat3d.app/Data/Managed/Assembly-UnityScript.dll into Unity Child Domain
+Non platform assembly: /private/var/mobile/Applications/E3414AB4-E56A-4747-961B-DACCC65EF263/baccarat3d.app/Data/Managed/Boo.Lang.dll (this message is harmless)
+Non platform assembly: /private/var/mobile/Applications/E3414AB4-E56A-4747-961B-DACCC65EF263/baccarat3d.app/Data/Managed/System.dll (this message is harmless)
+Non platform assembly: /private/var/mobile/Applications/E3414AB4-E56A-4747-961B-DACCC65EF263/baccarat3d.app/Data/Managed/Mono.Security.dll (this message is harmless)
+- Completed reload, in  0.072 seconds
+Creating RevMob Session
+ 
+(Filename: /Applications/buildAgent/work/d3d49558e4d408f4/artifacts/iPhonePlayer-armv7Generated/UnityEngineDebug.cpp Line: 53)
+
+2014-04-13 13:29:50.197 baccarat3d[680:60b] [RevMob] Starting RevMobAds
+2014-04-13 13:29:50.259 baccarat3d[680:60b] Set delegate callback to GameObject
+2014-04-13 13:29:50.260 baccarat3d[680:60b] Set delegate callback to GameObject
+2014-04-13 13:29:50.262 baccarat3d[680:60b] Set delegate callback to GameObject
+2014-04-13 13:29:50.262 baccarat3d[680:60b] Set delegate callback to GameObject
+2014-04-13 13:29:57.809 baccarat3d[680:60b] [RevMob] App ID: 526113a5519273264a000074
+2014-04-13 13:29:57.812 baccarat3d[680:60b] [RevMob] Testing mode: off
+2014-04-13 13:29:57.813 baccarat3d[680:60b] [RevMob] SDK Version: unity-ios-7.2.7 (ios-7.4.8)
+2014-04-13 13:29:57.813 baccarat3d[680:60b] [RevMob] OS Version: 7.0.6
+2014-04-13 13:29:57.815 baccarat3d[680:60b] [RevMob] App Version: 1.0 (19763384)(0)
+2014-04-13 13:29:57.815 baccarat3d[680:60b] [RevMob] ID for Vendor (IDFV): A891319B-9247-40A9-B7A7-B14ACE61AD38
+2014-04-13 13:29:57.817 baccarat3d[680:60b] [RevMob] ID for Advertising (IDFA): CFF0EDB7-511D-4653-870D-DE301EED83E5
+2014-04-13 13:29:57.819 baccarat3d[680:60b] [RevMob] Limit Ad Tracking: false
+2014-04-13 13:29:57.820 baccarat3d[680:60b] [RevMob] Model: iPhone5,2
+2014-04-13 13:29:57.823 baccarat3d[680:60b] [RevMob] Connection: wifi
+2014-04-13 13:29:57.824 baccarat3d[680:60b] [RevMob] Screen: 320,568 (2.0)
+2014-04-13 13:30:05.945 baccarat3d[680:60b] [RevMob] Initializating Banner.
+2014-04-13 13:30:05.946 baccarat3d[680:60b] [RevMob] Requesting banner data.
+2014-04-13 13:30:06.926 baccarat3d[680:60b] [RevMob] Ad received: (200).
+2014-04-13 13:30:07.630 baccarat3d[680:60b] [RevMob] Banner did received.
+2014-04-13 13:30:07.645 baccarat3d[680:60b] [RevMob] Specified banner width is too small, using a default value (320.000000).
+2014-04-13 13:30:07.646 baccarat3d[680:60b] [RevMob] Specified banner height is too small, using a default value (50.000000).
+2014-04-13 13:30:07.648 baccarat3d[680:60b] [RevMob] Banner displayed.
+>>> AdDidReceive: Banner
+ 
+(Filename: /Applications/buildAgent/work/d3d49558e4d408f4/artifacts/iPhonePlayer-armv7Generated/UnityEngineDebug.cpp Line: 53)
+
+>>> AdDisplayed: Banner
+ 
+(Filename: /Applications/buildAgent/work/d3d49558e4d408f4/artifacts/iPhonePlayer-armv7Generated/UnityEngineDebug.cpp Line: 53)
+
+2014-04-13 13:30:10.494 baccarat3d[680:60b] [RevMob] Banner clicked.
+2014-04-13 13:30:10.496 baccarat3d[680:60b] [RevMob] Loading iTunes url.
+>>> AdClicked: Banner
+ 
+(Filename: /Applications/buildAgent/work/d3d49558e4d408f4/artifacts/iPhonePlayer-armv7Generated/UnityEngineDebug.cpp Line: 53)
+
+2014-04-13 13:30:11.140 baccarat3d[680:60b] [RevMob] Opening iTunes.
+2014-04-13 13:30:11.200 baccarat3d[680:60b] [RevMob] Requesting banner data.
+-> applicationWillResignActive()
+-> applicationDidEnterBackground()
+2014-04-13 13:30:12.362 baccarat3d[680:60b] [RevMob] Ad received: (200).
+2014-04-13 13:30:12.379 baccarat3d[680:60b] [RevMob] Banner did received.

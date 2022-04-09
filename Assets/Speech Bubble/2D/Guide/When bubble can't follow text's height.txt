@@ -1,0 +1,12 @@
+It is possible bubble can't follow text's height as new lines added up,
+It happens when font's line height ignores floating point
+
+Try adding 10 to 20 lines in bubble and see if it looks great
+
+if not, adjust "heightRevision" in Manager
+
+if bubble is slightly smaller, try +0.1
+if bubble is slightly bigger, try -0.1 until bubble wraps text's height right
+
+Arial font works fine with 0 revision but,
+when you use new font you might have to adjust this value accordingly

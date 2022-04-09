@@ -1,0 +1,222 @@
+dealtcardscamera FOV 81.3 - 66.2 15.1
+sea;tothercardsplayercaera 38.8 - 29.9 8.9
+dealothercardsbankercamera 34 - 25.9  8.1
+
+
+1.0.16:
+CHECK: nextReleaseDate logic for iOS AR Bonus, 10mil chips and More Apps
+CHECK: Update to 1.6.0 NeatPlug Facebook plugin
+Release Web Version
+CHECK: Update 1.0.16 also to use RevMob 7.3.1 update on Android.
+DONE: Run diff on all .cs scripts, especially Consts, SmartIAPListener, AdsManager, ShopManager
+CHECK: Revmob shows in middle of screen in horizontal mode on iPad 2
+
+Bugs:
+-----
+- DONE: Check upgraded AppC SDK on Android
+- DONE: Follow up with Revmob about our e-mail (iOS status bar. can’t click banner nor fullscreen ad)
+- DONE: AppC cut in crashes if offline
+- DONE: saving of cloud balance and ad settings on Android. Maybe bugs in customized GPGPlugin.jar
+- DONE: Android/Eng: reset app data, open fresh, finish first tutorial speech bubbles up until start squeezing, then sign into google account (with ads), start squeezing… can’t SQUEEZE but can return cards.
+- DONE: When signing onto GPG with pro ads already purchased then the TapForTap ads aren’t hidden. The camera moves up okay. And if you restart the app you’re in pro mode.
+- DONE: Revmob portrait half sunk down
+- DONE: Update() calling FB/GPG? auth status getting called loooooooooooooots
+- DONE: Status bar showing
+- DONE: Am able to move $100,000k chip when bet $100 and balance is only $100k
+- DONE: TapForTap portrait not showing in Jap?
+- DONE: Start Jap in landscape, TapForTap shows, then rotate to portrait and it’s in the middle of the screen
+- DONE: Center GPG top button on notconnectedfb screen
+- DONE: When Leaderboard automatically opens on startup and is showing FB leaderboard, you can move chips
+- DONE: Check: Not loading GPG balance after logon?
+- DONE: Check if GPG no ads saved when 1) Purchase no ads 2) Then sign on to GPG for first time
+- DONE: Font sizes in horizontal on some screens need shrinking
+- DONE: Wont start when offline
+- DONE: Cant move chips after close 1) Connect to GPG 2) Connected to GPG but not FB
+- DONE: Facebook SHARE not working.
+- DONE: Review timing of GetTapPoints. Sometimes you don’t get immediate feedback (when slow connection?). At least give a message: you’ll get your points later etc.
+- DONE: Shop Manager buttons’s text goes black / window crashes if you click MORE APPS/GAMES in Shop Manager when proEdition == true. Probably an NPE.
+- DONE: Chartboost not running. Looper.prepare problem. Loaded into runOnUI.
+- DONE: Open game. Bet $100 on P. Lose 1st round. Flick $100,000 onto table when balance < $100,000. Get insufficient balance error but the troff chip flies onto the table.
+- DONE: Removed Android GPS permissions from manifest.
+- DONE: Test FlurryErrors offline
+- DONE: Upgraded Vuforia. RECHECK all AR features esp. AR Treasure Hunt!
+- DONE: Disable FB debug
+- DONE: No Ads Pack : to non-consumerable
+- DONE: Remove Google references
+- DONE: Check auto leaderboard open on app start (GPG, FB)
+- DONE: Resize RevMob
+- DONE: Tapjoy: virtual currency
+- DONE: Flurrify facebook events and errors
+- DONE: Upgrade Facebook + SmartIAP plugins
+- DONE: Zip up and email FB data
+- DONE: Add full money set for image targets
+- DONE: Setup SKUs in iPhone. iOS IAP product names not showing. Need re-registering.
+- DONE: Sometimes TapForTap are showing in the middle of the screen when switch between portrait and landscape
+- DONE: Rotate gyro cam around 90 back towards table
+- DONE: Implement basic treasure hunt AR for a) sake b) coke c) fags
+- DONE: NG: Can't bet max
+- DONE: Sometimes last column isn't populated on keisen, or sometimes it goes an extra column to the right when full
+- DONE: Fix Facebook timing. Takes a long time to load first install.
+- DONE: Friends data not uploaded
+- DONE: Check Google balance cloud save
+- DONE: Dealer rakes in chips when bet on player (maybe banker too) and tie wins. Nothing subtracted which is okay but she shouldn’t rake.
+- NONE: 再現しない! Stats panel shows old PLAYER and BANKER card totals 1) after finish game & 2) open close a GUI window
+- NONE: 再現しない! If do rapid moving of 10k and 100k chips (maybe others too), then the troff chip can be moved onto the table (hard to replicate)
+- DONE: Sometimes when doing rapid moving of 10k/100k (maybe others too) and removing some by making them go black, then sometimes one disappears but it’s bet value is still on the table (you can see it’s amount in the stats panel hasn’t been removed).
+- DONE: Game freezes for a bit on startup on iPhone when no net connection
+- DONE: calculate3rdCardTotals() sometimes invoked twice : game results wavs played twice and sound like stuttering
+- DONE: Chip magic doesn’t happen (not enough time for the fountain effect) when win pairs and ties together
+- DONE: Appc unity crash
+- DONE: Show loaded balance from cloud message overwriting google bonus
+- DONE: Auto refresh Facebook after signing in
+- DONE: Turn off ads when invite friends
+- DONE: Increase tapjoy points by about x100
+- DONE: Own profile photo in rank not showing.
+- DONE: rotation on camera, startup, purchase of ads etc.
+- DONE: Flurry + logging. Don't forget to ad Ads logging too.
+- DONE: Deduct from balance the moment you start dealing
+- DONE: Check screenraycasting on cards/chips in AR/gyro/normal camera modes
+- DONE: Flurrify round numbers and new shoes, scroll on help, scroll on gyrocam, when balance goes zero and opens shop
+- DONE: Englishfy jap numbers and win wavs
+- DONE: After squeeze-reveal then squeeze back to hide the card, reset the diagonal angle squeeze thing to 0
+- DONE: Check if squeeze from left side with 2 fingers is flurrying the event. Check on Android.
+- DONE: Return one of the first two cards and press the other button before the camera switches over automatically to the other side: the result; squeeze bird camera ends up focusing on the area of the card you just returned and you can no longer return the other card using the return button.
+- DONE: Improve squeeze detection in gyro and ar cam modes
+- DONE: Shop buttons go white when in pro mode and press free chips button
+- DONE: Don't overplay the large don sound for $100,000 bets
+- DONE: Show banker 3rd card before begin squeeze player 3
+- DONE: Make banker pair collider bigger?
+- DONE: Check NPE upon dealing cards
+- DONE: Make pic-in-pic cards bigger and easier to see
+- DONE: Shake cards only when bet on winning hand
+- DONE: Load game, move onto deal cam, switch to gyro cam, finish round, go back to normal 3D, deal next cards and squeeze cam isn't loaded (black screen).
+- DONE: Chartboost
+- DONE: RevMob
+- DONE: AppC
+- DONE: Change chip values to $100, $500, $1000, $10,000 & $100,000.
+- DONE: Tap For Tap
+- DONE: Keisen
+- DONE: Min: $300, Max: $500,000
+- DONE: Help :	http://kasinoru-ru.com/02/0105.html : http://resocasi.com/game/detail?id=24
+- CHECK: Sound turns off after line
+- DONE: Give $500 for each friend invited
+- DONE: Right-align number amounts on stats panel and results screen
+- DONE: Natural isn't updating on keisen
+- DONE: White part of card showing in top centre when bet on player
+- DONE: gyro cam scrollbar twists around okay
+- DONE: Fix timing for saying cut card was dealt / this is the last round / next round is last.
+- DONE: Fix speech bubble text size on big screens
+- DONE: When player wins in AR mode, give them a bonus!
+- DONE: Crashes after 3-5 games on iPhone.
+- DONE: Add animated tutorial hand for pushing chip onto table.
+- DONE: Test going through a whole shoe!
+- DONE: Diagonal single finger squeeze
+- DONE: Make help screen scrollbar white or some stand-out colour
+- DONE: Don't close menu on pressing video or visit website buttons
+- DONE: Remove timers on speech bubbles and add screen-tap to move onto next part of tutorial
+- DONE: Cards are too short
+- DONE: Reset camera zoom after finish round
+- DONE: Show $300 minimum value on message. Change minimum to $100?
+- NOPROB: No 残念！ shown on loss to Draw
+- DONE: Reverse 3 finger scroll
+- NOPROB: Cant press casino and table toggle buttons once after pressed in ar
+- DONE: Crashes before one shoot finished
+- DONE: Add turn off music button
+- DONE: No wording for icons
+- DONE: Swap exit and invite friends button
+- DONE: Shuffle all 8 decks as one big deck, not separately
+- DONE: Change beginners mode to tutorial
+- DONE: Change gyro cam vertical bar to horizontal bar
+- DONE: Sometimes main camera doesn't turn on when coming back from AR
+- DONE: Check zooming in gyro cam mode
+- DONE: Finger gestures stop working after gyrocam
+- DONE: Add tap to skip to next round when displaying results
+- DONE: Miyokos results screen change ideas, speed up PLAYER x BANKER x announcement
+- DONE: When reset main camera after round, take into account if ads showing, then dip camera again
+- DONE: When 0 balance, open shop
+- DONE: Disable move chip before movechiptututorial hand
+- DONE: Disable chip floating when not in place bets
+- DONE: Make scrollable text area from 40 to 50% on help screen
+- DONE: Player/banker totals display at same time behind tie result when a tie wins
+- DONE: Add a "YOU WIN"
+- DONE: Add logic to prevent rapid press of return button. Sometimes cards won't resize properly.
+- DONE: Chips not being cleared / kept properly
+- DONE: Some error (NPE) - app freezes - about when displaying results of game after having played in AR with casino and table and dealer display turned off.
+- DONE: Add 引け分け to タイ and 横のベット to Jap help.
+- DONE: Add scrollbar to help, make text larger.
+- DONE: Test that 3D button doesn't go back to squeeze camera while in non-squeeze mode. Forgot how to reproduce… possibly switch to AR while in squeeze mode, then press 3D after squeeze mode has finished.
+- DONE: Make green messages display longer
+- DONE: Trying to deal with no bets shows no pair error
+- DONE: check why can't do landscape mode properly
+- DONE: Reposition pic in pic cameras
+- DONE: Adding Loading… on load screen.
+- DONE: Banker win chips don't fall down
+- DONE: balance is not displaying
+- DONE: Make results background darker black.
+- DONE: Can't disable chips that we were rebet using the troff collider (their value isn't subtracted from current bets)
+- DONE: Can bet more than the balance when rapid moving of chips onto table. Need to do unbet logic as soon as chip is started dragging.
+- DONE: Two GameState objects instantiated during Play? Check for other unneeded objects.
+- DONE: Touch up squeezing (along with double, single taps and single finger squeeze)
+- DONE: Memory crash after a few games.
+- DONE: Add tutorial speech bubble for 2 finger zoom and 3 finger camera swipe gestures on main play screen
+- DONE: Add 2D<->AR switch when squeezing cards
+- DONE: Add list of all supported AR notes to AR tutorial
+- DONE: Add buttons to turn table/dealer off along with casino
+- DONE: Resurrect feature to bring chip back to troff and cancel its bet
+- DONE: Vertical size of panel not enough when betting on tie + both pairs + player or banker
+- DONE: Tutorial hand alignment not always spot on
+- DONE: Lower height of player cards when directly in front of dealer
+- DONE: Ressurect double touch finger tutorial and make it spin 180
+- DONE: Shouldn't be able to autorotate after finished tutorial and begin squeezing
+- DONE: Squeeze tutorial not in proportion sized with new card enlarger
+- DONE: Check enlarging for all 6 card types, betting on bank and play erz
+- DONE: Show stats panel after finish tutorial
+- DONE: Say ナチュラルナイン、ナチュラルエイト instead of hachi and kyuu
+- DONE: Check the number of chips returned when winning banker bet (coz we take the 5% commission and dish back chips that fall from the ceiling).
+- DONE: Cannot only bet on tie? Must also make another bet elsewhere. <<Check this rule>>
+- DONE: If win tie, then other chips are not deducted but returned.
+- DONE: Make banker/player pairs true side bets
+- DONE: Only announce "natural" at end of round if first two cards == 8 or 9
+- DONE: Overhaul screen mixing (transitions, lengths and unnecessary ones)
+- DONE: Say dealer's value of numbers after their 3 cards are dealt: CHECK WITH TADAHIRO
+- DONE: Line up, like:
+   BANKER 9
+   PLAYER 9 at end of game in the semi black transparent bars.
+- DONE: Flash cards? letters? screen? for the person who won - when displaying player/banker totals
+- DONE Big DON for TIE win too
+- DONE: Switch cards button was showing < when squeeze camera was on left
+- DONE: Add explanation for a rule of 条件
+- DONE: Fix the logic for ar/shop/leaderboard windows opening and closing and effecting each other
+- DONE: Lifting chips off top of troff doesn't look as nice as before
+- DONE: Dealer has a small polygon jutting out of her left thumb
+- DONE: BGM doesn't load on Android or iPhone
+- DONE: Skewed cards
+- DONE: Cards not so smooth when bending (* maybe alright the way they are)
+- DONE: Remove dragon
+- DONE: More DON for 1man dory place bet
+- DONE: Change home icon
+
+
+
+
+Next versions:
+-------------
+Make it so you can tap to reveal one card when in pic-in-pic window
+Dealer's left wrist is a bit bent
+Incentives - check the plan in design doc. Add them to Facebook too.
+Facebook web version.
+Amazon market place upload.
+Android screens that I worked so hard on.
+User defined targets for AR
+Revive card cutting
+Implement card burning
+Multiplayer with AR/video/voice
+Implement VIP and choose min/max bet tables
+Chinese translations & voices
+Sexy voice for Japanese
+Add bonus + risk to betting with AR depending on the notes value. If you bet using $100 note, then you may lose that amount as well as win it.
+Fix the timing of the playback for 1) the cut card has been dealt and 2) this is the last round so it doesn't overlap the other wav files (like card for player, card for banker etc)
+When new shoe begins it says place you bets twice
+Add SMS, mail, Line etc. link to invite friends
+After one shooter finishes there are some left over game objects like Player|BankerCard1-3, DeckClones etc… a very small memory leak for a very long game play
+Show number while squeezing button

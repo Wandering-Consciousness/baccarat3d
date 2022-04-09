@@ -1,0 +1,6 @@
+lastUpgrade=00900
+proj.AppId=635071630698
+android.SetupDone=true
+ios.ClientId=635071630698.apps.googleusercontent.com
+ios.BundleId=mobi.aroha.baccarat3d
+ios.SetupDone=true

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Bubble Batched Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .620153069, y: 1.45349324, z: -17.0953369}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a8fbe616f4d2141b96ee40c6dce6ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialVerts: []
+  topVerts: 
+  leftVerts: 
+  rightVerts: 
+  font: {fileID: 0}
+  camPerspectiveT: {fileID: 0}
+  camOrthographicT: {fileID: 0}
+  lineHeight: 0
+  asciiMin: 32
+  camPerspective: {fileID: 0}
+  camOrthographic: {fileID: 0}
+  bubbleMat: {fileID: 2100000, guid: 874213be09c14b14883ef516e92d8e4f, type: 2}
+  textMat: {fileID: 2100000, guid: 3d0c8bca0458351409ff958d5768f588, type: 2}
+  helperSkin: {fileID: 11400000, guid: 6d264e0af5ac1cd4389d26a995043f83, type: 2}
+  shape: 1
+  isPixelPerfect: 1
+  bubbleColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  textColor:
+    r: .26119405
+    g: .26119405
+    b: .26119405
+    a: 1
+  fontName: 417269616c
+  fontTexture: {fileID: 2800000, guid: 39af8b72b96e9c94c9dbf2ccf4cbb69a, type: 3}
+  size: 8.5
+  visibleRange: 1000
+  newLineChar: 23
+  targetToFollow: {fileID: 0}
+  test4G: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

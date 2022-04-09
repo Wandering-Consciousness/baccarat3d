@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: c4990adec3be66e45a068e333d7ed6cf
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Box01
+    100002: Box03
+    100004: Box05
+    100006: Box06
+    100008: Box07
+    100010: Box08
+    100012: Box18
+    100014: Box19
+    100016: Box20
+    100018: Cylinder01
+    100020: Cylinder02
+    100022: Cylinder03
+    100024: NGon02
+    100026: NGon03
+    100028: NGon04
+    100030: Particle View 01
+    100032: Particle View 01 1
+    100034: Particle View 01 2
+    100036: Particle View 01 3
+    100038: Particle View 02
+    100040: Particle View 02 1
+    100042: Particle View 02 2
+    100044: Particle View 02 3
+    100046: Sky01
+    100048: //RootNode
+    400000: Box01
+    400002: Box03
+    400004: Box05
+    400006: Box06
+    400008: Box07
+    400010: Box08
+    400012: Box18
+    400014: Box19
+    400016: Box20
+    400018: Cylinder01
+    400020: Cylinder02
+    400022: Cylinder03
+    400024: NGon02
+    400026: NGon03
+    400028: NGon04
+    400030: Particle View 01
+    400032: Particle View 01 1
+    400034: Particle View 01 2
+    400036: Particle View 01 3
+    400038: Particle View 02
+    400040: Particle View 02 1
+    400042: Particle View 02 2
+    400044: Particle View 02 3
+    400046: Sky01
+    400048: //RootNode
+    2300000: Box01
+    2300002: Box03
+    2300004: Box05
+    2300006: Box06
+    2300008: Box07
+    2300010: Box08
+    2300012: Box18
+    2300014: Box19
+    2300016: Box20
+    2300018: Cylinder01
+    2300020: Cylinder02
+    2300022: Cylinder03
+    2300024: NGon02
+    2300026: NGon03
+    2300028: NGon04
+    3300000: Box01
+    3300002: Box03
+    3300004: Box05
+    3300006: Box06
+    3300008: Box07
+    3300010: Box08
+    3300012: Box18
+    3300014: Box19
+    3300016: Box20
+    3300018: Cylinder01
+    3300020: Cylinder02
+    3300022: Cylinder03
+    3300024: NGon02
+    3300026: NGon03
+    3300028: NGon04
+    4300000: Box03
+    4300002: Box05
+    4300004: Box06
+    4300006: Box18
+    4300008: Box07
+    4300010: NGon02
+    4300012: Cylinder01
+    4300014: Box08
+    4300016: Cylinder02
+    4300018: NGon03
+    4300020: Box19
+    4300022: Cylinder03
+    4300024: NGon04
+    4300026: Box20
+    4300028: Box01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: bc3b0cf2794637d4eb005225e118303e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bip01
+    100004: Bip01 Footsteps
+    100006: Bip01 Head
+    100008: Bip01 HeadNub
+    100010: Bip01 L Calf
+    100012: Bip01 L Clavicle
+    100014: Bip01 L Finger0
+    100016: Bip01 L Finger01
+    100018: Bip01 L Finger02
+    100020: Bip01 L Finger0Nub
+    100022: Bip01 L Finger1
+    100024: Bip01 L Finger11
+    100026: Bip01 L Finger12
+    100028: Bip01 L Finger1Nub
+    100030: Bip01 L Finger2
+    100032: Bip01 L Finger21
+    100034: Bip01 L Finger22
+    100036: Bip01 L Finger2Nub
+    100038: Bip01 L Finger3
+    100040: Bip01 L Finger31
+    100042: Bip01 L Finger32
+    100044: Bip01 L Finger3Nub
+    100046: Bip01 L Finger4
+    100048: Bip01 L Finger41
+    100050: Bip01 L Finger42
+    100052: Bip01 L Finger4Nub
+    100054: Bip01 L Foot
+    100056: Bip01 L Forearm
+    100058: Bip01 L ForeTwist
+    100060: Bip01 L ForeTwist1
+    100062: Bip01 L ForeTwist2
+    100064: Bip01 L Hand
+    100066: Bip01 L Thigh
+    100068: Bip01 L Toe0
+    100070: Bip01 L Toe0Nub
+    100072: Bip01 L UpperArm
+    100074: Bip01 LThighTwist
+    100076: Bip01 LThighTwist1
+    100078: Bip01 LUpArmTwist
+    100080: Bip01 LUpArmTwist1
+    100082: Bip01 LUpArmTwist2
+    100084: Bip01 Neck
+    100086: Bip01 Pelvis
+    100088: Bip01 R Calf
+    100090: Bip01 R Clavicle
+    100092: Bip01 R Finger0
+    100094: Bip01 R Finger01
+    100096: Bip01 R Finger02
+    100098: Bip01 R Finger0Nub
+    100100: Bip01 R Finger1
+    100102: Bip01 R Finger11
+    100104: Bip01 R Finger12
+    100106: Bip01 R Finger1Nub
+    100108: Bip01 R Finger2
+    100110: Bip01 R Finger21
+    100112: Bip01 R Finger22
+    100114: Bip01 R Finger2Nub
+    100116: Bip01 R Finger3
+    100118: Bip01 R Finger31
+    100120: Bip01 R Finger32
+    100122: Bip01 R Finger3Nub
+    100124: Bip01 R Finger4
+    100126: Bip01 R Finger41
+    100128: Bip01 R Finger42
+    100130: Bip01 R Finger4Nub
+    100132: Bip01 R Foot
+    100134: Bip01 R Forearm
+    100136: Bip01 R ForeTwist
+    100138: Bip01 R ForeTwist1
+    100140: Bip01 R ForeTwist2
+    100142: Bip01 R Hand
+    100144: Bip01 R Thigh
+    100146: Bip01 R Toe0
+    100148: Bip01 R Toe0Nub
+    100150: Bip01 R UpperArm
+    100152: Bip01 RThighTwist
+    100154: Bip01 RThighTwist1
+    100156: Bip01 RUpArmTwist
+    100158: Bip01 RUpArmTwist1
+    100160: Bip01 RUpArmTwist2
+    100162: Bip01 Spine
+    100164: Bip01 Spine1
+    100166: Bip01 Spine2
+    100168: Bip01 Spine3
+    100170: Bone_bikZipB
+    100172: Bone_breastL
+    100174: Bone_breastL_end
+    100176: Bone_breastR
+    100178: Bone_breastR_end
+    100180: Bone_buttockL
+    100182: Bone_buttockL_end
+    100184: Bone_buttockR
+    100186: Bone_buttockR_end
+    100188: Bone_dress_sk_BL
+    100190: Bone_dress_sk_BM
+    100192: Bone_dress_sk_BR
+    100194: Bone_dress_sk_FL
+    100196: Bone_dress_sk_FM
+    100198: Bone_dress_sk_FR
+    100200: Bone_hairL_01
+    100202: Bone_hairL_02
+    100204: Bone_hairR_01
+    100206: Bone_hairR_02
+    100208: Bone_swim_b_00
+    100210: Bone_swim_b_01
+    100212: Bone_swim_b_02
+    100214: Bone_swim_b_03
+    100216: Bone_swim_b_04
+    100218: Bone_swim_b_05
+    100220: Bone_swim_b_06
+    100222: Bone_swim_b_07
+    100224: Bone_swim_b_08
+    100226: Bone_swim_b_09
+    100228: Bone_swim_b_10
+    100230: Bone_swim_b_11
+    100232: Bone_swim_bL
+    100234: Bone_swim_bR
+    100236: dummy tongue
+    100238: JAP_body
+    100240: JAP_body_BFP_Backside_Eye_L
+    100242: JAP_body_BFP_Backside_Eye_R
+    100244: JAP_body_BFP_Eye_L
+    100246: JAP_body_BFP_Eye_R
+    100248: JAP_body_BFPo_Eye_L
+    100250: JAP_body_BFPo_Eye_R
+    100252: JAP_common_dress
+    100254: JAP_hair_01
+    100256: JAP_hair_02
+    100258: JAP_hair_02_ad
+    100260: JAP_jaw up
+    100262: JAP_lashes
+    100264: JAP_Skirt
+    100266: JAP_swimsuit_top
+    100268: JAP_top
+    100270: Particle View 01
+    100272: Smile Close Slider
+    100274: Smile Open Slider
+    100276: Bone_dress_sk_FM2
+    100278: Bone_dress_sk_FL2
+    100280: Bone_dress_sk_FR2
+    100282: armrest
+    100284: ashays
+    100286: band
+    100288: chair
+    100290: ChairSeat49
+    100292: Chips place
+    100294: cup holders
+    100296: dealer's card's place
+    100298: felt
+    100300: info sheet
+    100302: left card's box
+    100304: money hole
+    100306: Plane53
+    100308: Plane54
+    100310: table
+    100312: table 1
+    100314: table band
+    400000: //RootNode
+    400002: Bip01
+    400004: Bip01 Footsteps
+    400006: Bip01 Head
+    400008: Bip01 HeadNub
+    400010: Bip01 L Calf
+    400012: Bip01 L Clavicle
+    400014: Bip01 L Finger0
+    400016: Bip01 L Finger01
+    400018: Bip01 L Finger02
+    400020: Bip01 L Finger0Nub
+    400022: Bip01 L Finger1
+    400024: Bip01 L Finger11
+    400026: Bip01 L Finger12
+    400028: Bip01 L Finger1Nub
+    400030: Bip01 L Finger2
+    400032: Bip01 L Finger21
+    400034: Bip01 L Finger22
+    400036: Bip01 L Finger2Nub
+    400038: Bip01 L Finger3
+    400040: Bip01 L Finger31
+    400042: Bip01 L Finger32
+    400044: Bip01 L Finger3Nub
+    400046: Bip01 L Finger4
+    400048: Bip01 L Finger41
+    400050: Bip01 L Finger42
+    400052: Bip01 L Finger4Nub
+    400054: Bip01 L Foot
+    400056: Bip01 L Forearm
+    400058: Bip01 L ForeTwist
+    400060: Bip01 L ForeTwist1
+    400062: Bip01 L ForeTwist2
+    400064: Bip01 L Hand
+    400066: Bip01 L Thigh
+    400068: Bip01 L Toe0
+    400070: Bip01 L Toe0Nub
+    400072: Bip01 L UpperArm
+    400074: Bip01 LThighTwist
+    400076: Bip01 LThighTwist1
+    400078: Bip01 LUpArmTwist
+    400080: Bip01 LUpArmTwist1
+    400082: Bip01 LUpArmTwist2
+    400084: Bip01 Neck
+    400086: Bip01 Pelvis
+    400088: Bip01 R Calf
+    400090: Bip01 R Clavicle
+    400092: Bip01 R Finger0
+    400094: Bip01 R Finger01
+    400096: Bip01 R Finger02
+    400098: Bip01 R Finger0Nub
+    400100: Bip01 R Finger1
+    400102: Bip01 R Finger11
+    400104: Bip01 R Finger12
+    400106: Bip01 R Finger1Nub
+    400108: Bip01 R Finger2
+    400110: Bip01 R Finger21
+    400112: Bip01 R Finger22
+    400114: Bip01 R Finger2Nub
+    400116: Bip01 R Finger3
+    400118: Bip01 R Finger31
+    400120: Bip01 R Finger32
+    400122: Bip01 R Finger3Nub
+    400124: Bip01 R Finger4
+    400126: Bip01 R Finger41
+    400128: Bip01 R Finger42
+    400130: Bip01 R Finger4Nub
+    400132: Bip01 R Foot
+    400134: Bip01 R Forearm
+    400136: Bip01 R ForeTwist
+    400138: Bip01 R ForeTwist1
+    400140: Bip01 R ForeTwist2
+    400142: Bip01 R Hand
+    400144: Bip01 R Thigh
+    400146: Bip01 R Toe0
+    400148: Bip01 R Toe0Nub
+    400150: Bip01 R UpperArm
+    400152: Bip01 RThighTwist
+    400154: Bip01 RThighTwist1
+    400156: Bip01 RUpArmTwist
+    400158: Bip01 RUpArmTwist1
+    400160: Bip01 RUpArmTwist2
+    400162: Bip01 Spine
+    400164: Bip01 Spine1
+    400166: Bip01 Spine2
+    400168: Bip01 Spine3
+    400170: Bone_bikZipB
+    400172: Bone_breastL
+    400174: Bone_breastL_end
+    400176: Bone_breastR
+    400178: Bone_breastR_end
+    400180: Bone_buttockL
+    400182: Bone_buttockL_end
+    400184: Bone_buttockR
+    400186: Bone_buttockR_end
+    400188: Bone_dress_sk_BL
+    400190: Bone_dress_sk_BM
+    400192: Bone_dress_sk_BR
+    400194: Bone_dress_sk_FL
+    400196: Bone_dress_sk_FM
+    400198: Bone_dress_sk_FR
+    400200: Bone_hairL_01
+    400202: Bone_hairL_02
+    400204: Bone_hairR_01
+    400206: Bone_hairR_02
+    400208: Bone_swim_b_00
+    400210: Bone_swim_b_01
+    400212: Bone_swim_b_02
+    400214: Bone_swim_b_03
+    400216: Bone_swim_b_04
+    400218: Bone_swim_b_05
+    400220: Bone_swim_b_06
+    400222: Bone_swim_b_07
+    400224: Bone_swim_b_08
+    400226: Bone_swim_b_09
+    400228: Bone_swim_b_10
+    400230: Bone_swim_b_11
+    400232: Bone_swim_bL
+    400234: Bone_swim_bR
+    400236: dummy tongue
+    400238: JAP_body
+    400240: JAP_body_BFP_Backside_Eye_L
+    400242: JAP_body_BFP_Backside_Eye_R
+    400244: JAP_body_BFP_Eye_L
+    400246: JAP_body_BFP_Eye_R
+    400248: JAP_body_BFPo_Eye_L
+    400250: JAP_body_BFPo_Eye_R
+    400252: JAP_common_dress
+    400254: JAP_hair_01
+    400256: JAP_hair_02
+    400258: JAP_hair_02_ad
+    400260: JAP_jaw up
+    400262: JAP_lashes
+    400264: JAP_Skirt
+    400266: JAP_swimsuit_top
+    400268: JAP_top
+    400270: Particle View 01
+    400272: Smile Close Slider
+    400274: Smile Open Slider
+    400276: Bone_dress_sk_FM2
+    400278: Bone_dress_sk_FL2
+    400280: Bone_dress_sk_FR2
+    400282: armrest
+    400284: ashays
+    400286: band
+    400288: chair
+    400290: ChairSeat49
+    400292: Chips place
+    400294: cup holders
+    400296: dealer's card's place
+    400298: felt
+    400300: info sheet
+    400302: left card's box
+    400304: money hole
+    400306: Plane53
+    400308: Plane54
+    400310: table
+    400312: table 1
+    400314: table band
+    2300000: JAP_jaw up
+    2300002: armrest
+    2300004: ashays
+    2300006: band
+    2300008: ChairSeat49
+    2300010: Chips place
+    2300012: cup holders
+    2300014: dealer's card's place
+    2300016: felt
+    2300018: info sheet
+    2300020: left card's box
+    2300022: money hole
+    2300024: Plane53
+    2300026: Plane54
+    2300028: table 1
+    2300030: table band
+    3300000: JAP_jaw up
+    3300002: armrest
+    3300004: ashays
+    3300006: band
+    3300008: ChairSeat49
+    3300010: Chips place
+    3300012: cup holders
+    3300014: dealer's card's place
+    3300016: felt
+    3300018: info sheet
+    3300020: left card's box
+    3300022: money hole
+    3300024: Plane53
+    3300026: Plane54
+    3300028: table 1
+    3300030: table band
+    4300000: JAP_hair_02_ad
+    4300002: JAP_hair_02
+    4300004: JAP_Skirt
+    4300006: JAP_top
+    4300008: JAP_hair_01
+    4300010: JAP_swimsuit_top
+    4300012: JAP_common_dress
+    4300014: JAP_jaw up
+    4300016: JAP_body
+    4300018: JAP_lashes
+    4300020: ChairSeat49
+    4300022: info sheet
+    4300024: Plane53
+    4300026: dealer's card's place
+    4300028: left card's box
+    4300030: money hole
+    4300032: cup holders
+    4300034: Plane54
+    4300036: table
+    4300038: Chips place
+    4300040: band
+    4300042: armrest
+    4300044: felt
+    4300046: table band
+    4300048: ashays
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: JAP_body
+    13700002: JAP_common_dress
+    13700004: JAP_hair_01
+    13700006: JAP_hair_02
+    13700008: JAP_hair_02_ad
+    13700010: JAP_lashes
+    13700012: JAP_Skirt
+    13700014: JAP_swimsuit_top
+    13700016: JAP_top
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 06 - Default
+    second: {fileID: 2100000, guid: 210b72c0bd7dbea4db16392f13d30dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: ef1fbd18c66f22c4b9f93bc06095a7e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold
+    second: {fileID: 2100000, guid: 2c18d0192f5908943824bf8a429f2a34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JAP_body
+    second: {fileID: 2100000, guid: 4bfcc3345d519324b87cf131050acfc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JAP_cloth_top
+    second: {fileID: 2100000, guid: 9f1090a4efaf37c41b8c21edbcf66546, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'JAP_common_dress Slot #2'
+    second: {fileID: 2100000, guid: 8d03fd385b2507d4fb86f52de3ffe5d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JAP_hair_01
+    second: {fileID: 2100000, guid: 7d71b54ecc680a144a453aaec26eec33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JAP_hair_02
+    second: {fileID: 2100000, guid: 0dbc2808614621840bc846fcd77721e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JAP_hair_add
+    second: {fileID: 2100000, guid: 1eac96db7e016b34abe66e9882f2e04c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JAP_lashes
+    second: {fileID: 2100000, guid: de6d9cfc56fbca944a5cf11646d28a5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JAP_skirt
+    second: {fileID: 2100000, guid: 86f67d4cf0d1291428a79c77c09f84a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JAP_swimsuit_top
+    second: {fileID: 2100000, guid: 186724de1c991c441b3dc96c3f4ef118, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEATHER STOOL cream
+    second: {fileID: 2100000, guid: 6de6c9b62fdc4d24ebe5838d39be9b89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1301'
+    second: {fileID: 2100000, guid: a6eeffd2e247cb24fbdaf85e3cdb1466, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632193854'
+    second: {fileID: 2100000, guid: 454d047c045c85b4fb4ba056febc66ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632193855'
+    second: {fileID: 2100000, guid: 454d047c045c85b4fb4ba056febc66ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632193856'
+    second: {fileID: 2100000, guid: 0e53fd2fe4aa31546afc7b3ce598303f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632193899'
+    second: {fileID: 2100000, guid: 3d706f5f7f65e0f45ac1203e2e457fcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632193900'
+    second: {fileID: 2100000, guid: c3b691addf7ae2c4b8cd2e2fa168a4be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632193901'
+    second: {fileID: 2100000, guid: 03b309d52e7051c44a179c63ea5a3456, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245516'
+    second: {fileID: 2100000, guid: 01aaccb3107c16e4c83eddf2c89b183e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245517'
+    second: {fileID: 2100000, guid: ff936ad2880f10243bf13b34ff356849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245564'
+    second: {fileID: 2100000, guid: 9abbf2fd962e08341b79fad1f7e584a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245565'
+    second: {fileID: 2100000, guid: b371de157711a7c4e859a8966c3a833c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245566'
+    second: {fileID: 2100000, guid: 304ed177c04ca0b4fbde1a1eca7431d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245567'
+    second: {fileID: 2100000, guid: 13abb3a15ad478d49b9e36373a54cbb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245568'
+    second: {fileID: 2100000, guid: eda6c02595dcfd4418c6a23c4dc331b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245571'
+    second: {fileID: 2100000, guid: 5c72b432d2186af4898475ad0fe1b752, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245572'
+    second: {fileID: 2100000, guid: 5c72b432d2186af4898475ad0fe1b752, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_19
+    second: {fileID: 2100000, guid: b89ab5318e754fe49852ed9d543a90f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TIMBER 04
+    second: {fileID: 2100000, guid: a8bcbc7ab4cea4c44ad76ce0bb46968a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deck
+    second: {fileID: 2100000, guid: abf37e5d193cef045a9165209cb4aac1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

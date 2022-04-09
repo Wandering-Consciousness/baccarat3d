@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget size="300 133.5" name="1_dollars_usa_tails" />
+    <ImageTarget size="300 131.010635" name="1_dollars_usa_heads" />
+    <ImageTarget size="300 145.374451" name="100_north_korean_won_heads" />
+    <ImageTarget size="300 152.441223" name="10_chinese_yuan_heads" />
+    <ImageTarget size="300 150.600006" name="1000_won_south_korea_heads" />
+    <ImageTarget size="300 126.92308" name="100_dollars_usa_tails" />
+    <ImageTarget size="300 126.92308" name="100_dollars_usa_heads" />
+    <ImageTarget size="300 124.022346" name="50_dollars_usa_tails" />
+    <ImageTarget size="300 128.491623" name="50_dollars_usa_heads" />
+    <ImageTarget size="300 125.139664" name="20_dollars_usa_tails" />
+    <ImageTarget size="300 128.491623" name="20_dollars_usa_heads" />
+    <ImageTarget size="300 127.586205" name="10_dollars_usa_tails" />
+    <ImageTarget size="300 127.222221" name="10_dollars_usa_heads" />
+    <ImageTarget size="300 127.932961" name="5_dollars_usa_tails" />
+    <ImageTarget size="300 127.932961" name="5_dollars_usa_heads" />
+    <ImageTarget size="300 159.5" name="20_gbp_uk_heads" />
+    <ImageTarget size="300 144.827591" name="20_dollars_singapore_heads" />
+    <ImageTarget size="300 144.392517" name="20_dollars_nz_heads" />
+    <ImageTarget size="300 148.770493" name="50_rupees_india_heads" />
+    <ImageTarget size="300 151.058823" name="20_dollars_hongkong_heads" />
+    <ImageTarget size="300 161.5" name="20_euros_tails" />
+    <ImageTarget size="300 162.096771" name="20_euros_heads" />
+    <ImageTarget size="300 160" name="10_euros_tails" />
+    <ImageTarget size="300 158.333328" name="10_euros_heads" />
+    <ImageTarget size="300 150.706436" name="5_euros_tails" />
+    <ImageTarget size="300 150.706436" name="5_euros_heads" />
+    <ImageTarget size="300 137.399994" name="20_dollars_canadian_tails_polymer" />
+    <ImageTarget size="300 136.800003" name="20_dollars_canadian_tails" />
+    <ImageTarget size="300 137.399994" name="20_dollars_canadian_heads_polymer" />
+    <ImageTarget size="300 137.100006" name="20_dollars_canadian_heads" />
+    <ImageTarget size="300 137.699997" name="10_dollars_canadian_tails" />
+    <ImageTarget size="300 137.699997" name="10_dollars_canadian_heads" />
+    <ImageTarget size="300 137.100006" name="5_dollars_canadian_tails" />
+    <ImageTarget size="300 136.5" name="5_dollars_canadian_heads" />
+    <ImageTarget size="300 133.129578" name="20_dollars_australia_heads" />
+    <ImageTarget size="200 93.555092" name="10ky2" />
+    <ImageTarget size="200 92.723495" name="10ky1" />
+    <ImageTarget size="200 97.111916" name="5000y2" />
+    <ImageTarget size="200 96.588867" name="5000y1" />
+    <ImageTarget size="200 98.507462" name="1000y2" />
+    <ImageTarget size="200 99.62825" name="1000y1" />
+  </Tracking>
+</QCARConfig>

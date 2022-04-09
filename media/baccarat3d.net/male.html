@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://knowledge.tapjoy.com/en/integration/unity-plugin -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./male_files/ga.js"></script><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+<title>Unity Plugin | Tapjoy Knowledge Center</title>
+
+<link href="./male_files/application-c34b9b61ee53a7900b12bc53c3072cd4.css" media="all" rel="stylesheet" type="text/css">
+<script src="./male_files/application-13061426d97011ef0b93f7cbb0b2b9d3.js" type="text/javascript"></script><style type="text/css"></style></head><body><div id="flake0" onclick="javascript:destructFlake(0);" style="position: absolute; z-index: 25; visibility: visible; top: -50px;"><img id="imgflake0" src="./male_files/flake.gif" border="0"></div><div id="flake1" onclick="javascript:destructFlake(1);" style="position: absolute; z-index: 26; visibility: visible; top: -50px;"><img id="imgflake1" src="./male_files/flake.gif" border="0"></div><div id="flake2" onclick="javascript:destructFlake(2);" style="position: absolute; z-index: 27; visibility: visible; top: -50px;"><img id="imgflake2" src="./male_files/flake.gif" border="0"></div><div id="flake3" onclick="javascript:destructFlake(3);" style="position: absolute; z-index: 28; visibility: visible; top: -50px;"><img id="imgflake3" src="./male_files/flake.gif" border="0"></div><div id="flake4" onclick="javascript:destructFlake(4);" style="position: absolute; z-index: 29; visibility: visible; top: -50px;"><img id="imgflake4" src="./male_files/flake.gif" border="0"></div><div id="flake5" onclick="javascript:destructFlake(5);" style="position: absolute; z-index: 30; visibility: visible; top: -50px;"><img id="imgflake5" src="./male_files/flake.gif" border="0"></div><div id="flake6" onclick="javascript:destructFlake(6);" style="position: absolute; z-index: 31; visibility: visible; top: -50px;"><img id="imgflake6" src="./male_files/flake.gif" border="0"></div><div id="flake7" onclick="javascript:destructFlake(7);" style="position: absolute; z-index: 32; visibility: visible; top: -50px;"><img id="imgflake7" src="./male_files/flake.gif" border="0"></div><div id="flake8" onclick="javascript:destructFlake(8);" style="position: absolute; z-index: 33; visibility: visible; top: -50px;"><img id="imgflake8" src="./male_files/flake.gif" border="0"></div><div id="flake9" onclick="javascript:destructFlake(9);" style="position: absolute; z-index: 34; visibility: visible; top: -50px;"><img id="imgflake9" src="./male_files/flake.gif" border="0"></div><div id="flake10" onclick="javascript:destructFlake(10);" style="position: absolute; z-index: 35; visibility: visible; top: -50px;"><img id="imgflake10" src="./male_files/flake.gif" border="0"></div><div id="flake11" onclick="javascript:destructFlake(11);" style="position: absolute; z-index: 36; visibility: visible; top: -50px;"><img id="imgflake11" src="./male_files/flake.gif" border="0"></div>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<meta content="https://knowledge.tapjoy.com/en/integration/unity-plugin" property="og:url">
+<meta content="https://dkkr6h0cluuyc.cloudfront.net/assets/social_icon-7f7dce3cf0b8f469f8fa3d60c0f6c846.jpg" property="og:image">
+<meta content="Tapjoy Knowledge Center" property="og:site_name">
+
+<meta content="authenticity_token" name="csrf-param">
+<meta content="zCpSKOg+LldhPgoqDn6DCqvPBRv70Kzc7OCapHS9JJs=" name="csrf-token">
+<script>
+  // GA
+  var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-31610931-1']); _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<div id="header">
+<a href="https://knowledge.tapjoy.com/en/" id="logo"></a>
+</div>
+<h1><a href="https://knowledge.tapjoy.com/en/">Knowledge Center</a></h1>
+<div id="search_form">
+<form accept-charset="UTF-8" action="https://knowledge.tapjoy.com/en/articles/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+<p>
+<input data-autocomplete-path="/en/articles/autocomplete" id="q" name="q" placeholder="What can we help you with?" type="text" class="ui-autocomplete-input" autocomplete="off"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+<input name="nil" type="submit" value="Search">
+</p>
+</form>
+
+</div>
+<div id="content_wrapper">
+<div id="content">
+<div id="last_updated">Last updated about 1 month ago</div>
+<h2 class="" data-mercury="markdown" id="article_title">Unity Plugin</h2>
+<hr>
+<div data-locale="en" data-mercury="full" data-snippets="{&quot;snippet_0&quot;:{&quot;name&quot;:&quot;code&quot;,&quot;options&quot;:{&quot;lang&quot;:&quot;java&quot;,&quot;code&quot;:&quot;// Called when a Connect as completed successfully.\r\npublic void TapjoyConnectSuccess(string message)\r\n\r\n// Called when a Connect as failed.\r\npublic void TapjoyConnectFail(string message)\r\n\r\n// Called when Tap Points (Tapjoy managed currency) has been returned from the server.\r\npublic void TapPointsLoaded(string message)\r\n\r\n// Called when the Tap Points request fails.\r\npublic void TapPointsLoadedError(string message)\r\n\r\n// Called when the the spend Tap Points request has been returned from the server.\r\npublic void TapPointsSpent(string message)\r\n\r\n// Called when spend Tap Points fails.\r\npublic void TapPointsSpendError(string message)\r\n\r\n// Called when the award Tap Points request has been returned from the server.\r\npublic void TapPointsAwarded(string message)\r\n\r\n// Called when award Tap Points fails.\r\npublic void TapPointsAwardError(string message)\r\n\r\n// Called when Tapjoy managed currency has been awarded.\r\npublic void CurrencyEarned(string message)\r\n\r\n// FULL SCREEN ADS\r\n// Called when the full screen ad has been loaded from the server. TapjoyPlugin.ShowFullScreenAdFullScreen() should be called at this point.\r\npublic void FullScreenAdLoaded(string message)\r\n\r\n// Called when the full screen ad request fails.\r\npublic void FullScreenAdError(string message)\r\n\r\n// DAILY-REWARD ADS\r\n// Called when the daily reward ad has been loaded from the server. TapjoyPlugin.ShowDailyRewardAd() should be called at this point.\r\npublic void DailyRewardAdLoaded(string message)\r\n\r\n// Called when the daily reward ad request fails.\r\npublic void DailyRewardAdError(string message)\r\n\r\n// DISPLAY ADS\r\n// Called whenever the display ad has been loaded from the server.  TapjoyPlugin.ShowDisplayAd() should be called at this point.\r\npublic void DisplayAdLoaded(string message)\r\n\r\n// Called when the banner ad request fails.\r\npublic void DisplayAdError(string message)\r\n\r\n// VIDEO\r\n// Called when a video ads are ready (in the offer wall).\r\npublic void VideoAdStart(string message)\r\n\r\n// Called when an error occurs while trying to play video.\r\npublic void VideoAdError(string message)\r\n\r\n// Called when a video has completed playing.\r\npublic void VideoAdComplete(string message)&quot;}},&quot;snippet_1&quot;:{&quot;name&quot;:&quot;code&quot;,&quot;options&quot;:{&quot;lang&quot;:&quot;java&quot;,&quot;code&quot;:&quot;// CONNECT\r\npublic static void SetCallbackHandler(string handlerName) { }\r\n\r\npublic static void RequestTapjoyConnect(string appID, string secretKey) { }\r\n\r\npublic static void RequestTapjoyConnect(string appID, string secretKey, Dictionary&lt;string, string&gt; flags) { }\r\n\r\npublic static void EnableLogging(bool enable) { }\r\n\r\npublic static void ActionComplete(string actionID) { }\r\n\r\npublic static void SetUserID(string userID) { }\r\n\r\n// OFFERS\r\npublic static void ShowOffers() { }\r\n\r\n// VIRTUAL CURRENCY\r\npublic static void GetTapPoints() { }\r\n\r\npublic static void SpendTapPoints(int points) { }\r\n\r\npublic static void AwardTapPoints(int points) { }\r\n\r\npublic static int QueryTapPoints()\r\n\r\npublic static void ShowDefaultEarnedCurrencyAlert() { }\r\n\r\n// DISPLAY ADS\r\npublic static void GetDisplayAd() { }\r\n\r\npublic static void ShowDisplayAd() { }\r\n\r\npublic static void HideDisplayAd() { }\r\n\r\npublic static void SetDisplayAdSize(TapjoyDisplayAdSize size) { }\r\n\r\npublic static void EnableDisplayAdAutoRefresh(bool enable) { }\r\n\r\npublic static void MoveDisplayAd(int x, int y) { }\r\n\r\n// iOS SETTING\r\npublic static void SetTransitionEffect(int transition) { }\r\n\r\n// FULL SCREEN ADS\r\npublic static void GetFullScreenAd() { }\r\n\r\npublic static void ShowFullScreenAd() { }\r\n\r\n// DAILY REWARD ADS\r\npublic static void GetDailyRewardAd() { }\r\n\r\npublic static void ShowDailyRewardAd() { }\r\n\r\n// EVENT TRACKING\r\npublic static void SendShutDownEvent() { }\r\n\r\npublic static void SendIAPEvent(string name, float price, int quantity, string currencyCode) { }\r\n\r\n// MULTIPLE CURRENCY (currency cannot be managed by Tapjoy)\r\npublic static void ShowOffersWithCurrencyID(string currencyID, bool selector) { }\r\n\r\npublic static void GetDisplayAdWithCurrencyID(string currencyID) { }\r\n\r\npublic static void GetFullScreenAdWithCurrencyID(string currencyID) { }\r\n\r\npublic static void SetCurrencyMultiplier(float multiplier) { }\r\n\r\npublic static void GetDailyRewardAdWithCurrencyID(string currencyID) { }&quot;}}}" id="article_body">
+
+
+<div>If you are a publishers who want to monetize with Tapjoy using our Unity plugin you can show all our different ad units in your Unity project. &nbsp;Note:&nbsp;If you're an advertiser seeking distribution follow these instructions, but&nbsp; the only function you need to implement is RequestTapjoyConnect call.&nbsp;</div>
+<div>You can download the Unity&nbsp;Plugin&nbsp;for iOS and Android&nbsp;here:</div>
+<div>
+<a href="https://www.tapjoy.com/sdk"></a><a href="https://www.tapjoy.com/sdk">https://www.tapjoy.com/sdk</a>
+</div>
+<div>Unity 3.5 and 4.0 - 4.3&nbsp;are supported. (SDK&nbsp;Build: Unity 9.1.1)</div>
+<div><a href="https://knowledge.tapjoy.com/en/integration/unity-plugin#initialsetup">Initial Setup</a></div>
+<div><a href="https://knowledge.tapjoy.com/en/integration/unity-plugin#sampleproject">Sample project details</a></div>
+<div><a href="https://knowledge.tapjoy.com/en/integration/unity-plugin#troubleshooting">Troubleshooting</a></div>
+<div>
+<div>
+<a href="https://kc.tapjoy.com/en/integration/unity-plugin?save_url=%2Fadmin%2Farticles%2Funity-plugin%2Fmercury_update&mercury_frame=true&_=1352854890143#ios"></a><a href="https://knowledge.tapjoy.com/en/integration/unity-plugin#ios">iOS Notes</a><a href="http://tapjoykc.herokuapp.com/en/integration/phone-gap-plugin?mercury_frame=true#ios"></a>
+</div>
+<div>
+<a href="https://kc.tapjoy.com/en/integration/unity-plugin?save_url=%2Fadmin%2Farticles%2Funity-plugin%2Fmercury_update&mercury_frame=true&_=1352854890143#android"></a><a href="https://knowledge.tapjoy.com/en/integration/unity-plugin#android">Android Notes</a>
+</div>
+</div>
+<div><a href="https://knowledge.tapjoy.com/en/integration/unity-plugin#callback">Callback Methods</a></div>
+<div><a href="https://knowledge.tapjoy.com/en/integration/unity-plugin#available">All Available Methods</a></div>
+<div><hr></div>
+<div>
+<a name="initialsetup">Initial Setup</a><br>
+</div>
+<div>
+<div>The Tapjoy Unity Plugin zip contains a Unity package file for easy importing, and the raw files for those who prefer to drag-n-drop files for their Tapjoy upgrade.</div>
+<div>
+<div>To import the TapjoyUnityPlugin_vVERSION.unitypackage:</div>
+<div><ol>
+<li>Open your Unity project</li>
+<li>Assets -&gt; Import Package -&gt; Custom Package...</li>
+<li>Point to the TapjoyUnityPlugin_vVERSION.unitypackage file</li>
+<li>IMPORTANT, if using Unity 3.5: Uncheck TapjoyPlugin/TapjoyPluginPrefab.prefab<br>
+</li>
+<li>Review the list of import files checking for any conflicts</li>
+<li>Press the "Import" button to accept the files</li>
+</ol></div>
+</div>
+</div>
+<div>
+<a name="sampleproject">Sample Project details</a><br>
+</div>
+<div>
+<div><div>
+<b>To run this sample in Unity 3.5:</b><br>
+</div></div>
+<div>
+<div><ol>
+<li>File-&gt;New Project<br>
+</li>
+<li>Assets-&gt;Import Package-&gt;Custom Package</li>
+<li>Point to the&nbsp;TapjoyUnityPlugin_vVERSION.unitypackage file</li>
+<li>IMPORTANT:&nbsp;Uncheck TapjoyPlugin/TapjoyPluginPrefab.prefab and SampleScene/TapjoySampleScene.unity<img src="./male_files/2013-05-28_1157.png">
+</li>
+<li>Game Object-&gt;Create Empty</li>
+<li>Drag TapjoySample.cs&nbsp;&amp; TapjoyPlugin.cs&nbsp;&nbsp;to Inspector window</li>
+<li>Open the "Build Settings" window: File -&gt; Build Settings</li>
+<li>Switch your platform to iOS or Android, and click the "Player Settings..." button<br><div></div>
+</li>
+<li>Set the "Bundle Identifier" to com.tapjoy.tapjoyPlugin<br>
+</li>
+</ol></div>
+<div>
+<b>To run this sample&nbsp;in Unity 4.0:</b><br>
+</div>
+</div>
+<div></div>
+<div>
+<div><ol>
+<li>Open Assets/TapjoySample/TapjoySampleScene.unity</li>
+<li>Remove the TapjoyPluginPrefab from the Hierarchy. &nbsp;<br>
+</li>
+<li>Go to Game Object-&gt;Create Empty<br>
+</li>
+<li>Drag TapjoySample.cs &amp; TapjoyPlugin.cs to Inspector window<br>
+</li>
+<li>Open the "Build Settings" window: File -&gt; Build Settings<br>
+</li>
+<li>Switch your platform to iOS or Android, and click the "Player Settings..." button<br>
+</li>
+<li>Set the "Bundle Identifier" to com.tapjoy.tapjoyPlugin<br>
+</li>
+<li>Build.<br>
+</li>
+</ol></div>
+<ol></ol>
+</div>
+<div>
+<b><span class="Apple-tab-span">	</span>Additionally for iOS:</b>
+</div>
+<div>
+<ul><li>In the "Player Settings..." set the "Target iOS Version" to at least 4.3<br>
+</li></ul>
+<div>
+<div>NOTE: In order for the PostprocessBuildPlayer script to run after building for iOS, you will need:<br>
+</div>
+</div>
+</div>
+<div><ul>
+<li>python 2.7 or higher</li>
+<li>perl</li>
+</ul></div>
+<div><div>
+<b>Additionally for Android:</b><br>
+</div></div>
+<div>
+<span class="Apple-tab-span">	</span>NOTE: In order to run this sample project on Android, you will need to either:</div>
+<div>
+<ul>
+<li>If you don't have an /Assets/Plugins/Android/AndroidManifest.xml file:&nbsp;Re-name the TapjoySampleAndroidManifest.xml file to AndroidManifest.xml located in the /Assets/Plugins/Android/ folder</li>
+<li>If you already have an /Assets/Plugins/Android/AndroidManifest.xml file: &nbsp;Edit your AndroidManifest.xml to include the activities and permissions as listed in the&nbsp;/Assets/Plugins/Android/TapjoySampleAndroidManifest.xml file, under the &lt;!-- Tapjoy --&gt; comment.</li>
+</ul>
+<b><a name="troubleshooting">Troubleshooting</a></b><ul></ul>
+</div>
+<div>
+<div>If the TapjoyPluginPrefab is red (missing a link to it's script):<br>
+</div>
+<div><ul>
+<li>Highlight the TapjoyPluginPrefab object, and ensure you can see the "TapjoyPlugin (Script)" section in the Inspector</li>
+<li>Drag the /Assets/TapjoyPlugin/TapjoyPlugin.cs file from your Project navigator to the script section you found above</li>
+<li>The object should now be correctly linked</li>
+</ul></div>
+<div>
+<div>
+<img src="./male_files/Screen_Shot_2013-08-06_at_12.20.36_PM.png"><br>
+</div>
+<div><br></div>
+<div><ul><li>For Unity 9.0.4 SDK integrations:&nbsp;If you can't remove all_load in your project&nbsp;you can set "-force_load path_to/TapjoyPublisherLibrary.a" instead. &nbsp;If you use the -force_load flag you must also remove TapjoyPublisherLibrary.a from "Build Phases"-&gt;"Link Binary With Libraries". &nbsp;If you fail to remove it from "Link Binary With Libraries" your app may crash</li></ul></div>
+<div>
+<div><b><u><font color="#ff0000">Change Log/Known Issues:</font></u></b></div>
+<div>-&nbsp;08.22.13:&nbsp;Adding -all_load and/or -ObjC linker flags in Unity SDK 9.1 will cause duplicate symbol compiler errors. Fix scheduled in production.&nbsp;</div>
+<div><b>Unity 4.3:</b></div>
+<div>
+<div>If you are using Unity 4.3 you'll need to make the following changes to the Manifest file to&nbsp;&nbsp;get display ads working:</div>
+<div><ol>
+<li>Delete the non-native activity &nbsp;("com.unity3d.player.UnityPlayerActivity”)&nbsp;from your AndroidManifest.xml file</li>
+<li>Delete he proxy activity (“com.unity3d.player.UnityPlayerProxyActivity”) from your AndroidManifest.xml file</li>
+<li>Move&nbsp;</li>
+</ol></div>
+<div>&lt;intent-filter&gt;&nbsp;</div>
+<div>&lt;action android:name="android.intent.action.MAIN" /&gt;</div>
+<div>&lt;category android:name="android.intent.category.LAUNCHER" /&gt;</div>
+<div>&lt;/intent-filter&gt;</div>
+<div>to the native activity (com.unity3d.player.UnityPlayerNativeActivity)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div><a href="https://knowledge.tapjoy.com/en/integration/unity-plugin#android"></a></div>
+<div><hr></div>
+<div><a name="ios">iOS Notes</a></div>
+</div>
+<div><a name="android"></a></div>
+<div>
+<div>Upon building for iOS, Unity will automatically call the /Editor/PostprocessBuildPlayer script. This will in-turn loop through and execute all available PostprocessBuildPlayer_* scripts. &nbsp;The PostprocessBuildPlayer_Tapjoy script will call the TapjoyXcodeUpdatePostBuild.pyc,&nbsp;which will automatically import the following frameworks into your Unity-iPhone.xcodeproj:</div>
+</div>AdSupport<br>CFNetwork<br>CoreGraphics<br>CoreLocation<br>CoreMotion<br>CoreTelephony<br>EvenKitUI<br>EventKit<br>Foundation<br>libsqlite3.0<br>libxml2<br>libz<br>MapKit<br>MediaPlayer<br>MessageUI<br>MobileCoreServices<br>QuartzCore<br>Social (Optional)<br>StoreKit<br>SystemConfiguration<br>Twitter<br>UIKit<div>
+<br><div>
+<div>For Unity 9.0.4 SDK integrations:&nbsp;set the additional -ObjC linker and -all_load&nbsp;flags.</div>
+<div>This allows you to build and run your iOS&nbsp;projects, without needing to stop and change any settings for Tapjoy integration. &nbsp;The TapjoyXcodeUpdatePostBuild.log will be available in your project folder to look at the results of the update to your xcode project.</div>
+<div><hr></div>
+<div>
+<a name="android">Android Notes</a><br>
+</div>
+</div>
+<div>
+<div>&nbsp;The Unity plugin currently supports Android 2.3&nbsp;- 4.3 devices.<br>
+</div>
+<div>NOTE: For users of earlier Tapjoy Unity Plugins - The starting Activity no longer needs to be overwritten (or have Tapjoy code added) and compiled into a jar in the Assets/Plugins/Android/bin/ folder. &nbsp;This is all handled automatically in Tapjoy SDK 9.x. &nbsp;If you are upgrading from an earlier version, your current starting Activity should still continue to work correctly with the plugin.</div>
+<div>
+<div>
+<span class="Apple-tab-span">	</span>To avoid DEX errors, before upgrading you should delete all previous Tapjoy files/folders:</div>
+<div><ul>
+<li>/Assets/Plugins/Android/src/</li>
+<li>/Assets/Plugins/bin/classes/</li>
+<li>/Assets/Plugins/bin/TapjoyPlugin.jar</li>
+<li>/Assets/TapjoyPlugin/</li>
+</ul></div>
+</div>
+<div>You will need:</div>
+<div><ul>
+<li>Unity 3.1+ - http://unity3d.com/unity/download/</li>
+<li>JDK 6 (java 1.6.x) &nbsp;THERE ARE ISSUES WITH JDK 7, DO NOT USE THIS.</li>
+<li>Android SDK - http://developer.android.com/sdk/index.html</li>
+<li>ANT Java build tool - http://ant.apache.org/&nbsp;to build on this example. If you want to recompile the native library (libjni.so) you will need the Android NDK as well.</li>
+</ul></div>
+<div>To add Tapjoy to your Unity Android project, follow these steps:</div>
+<div>
+<ul>
+<li>Override AndroidManifest.xml. Create this file in the Assets/Plugins/Android folder. &nbsp;You need to specify the package name of your application. &nbsp;This must match your Unity Bundle Identifier. &nbsp;See Assets/Plugins/Android/AndroidManifest.xml for all the Tapjoy parameters which must be added into manifest.</li>
+<li>In Unity, change the Bundle Identifier to match your new package name.<br>
+</li>
+<li>In your Unity project, you must have a GameObject linked in order to receive Tapjoy notifications. &nbsp;You can do in Unity by GameObject &gt; Create Empty. &nbsp;Drag your script file onto the GameObject to link the two. &nbsp;The name of the GameObject must be set with SetCallbackHandler() before any other Tapjoy methods are called.</li>
+<li>Now your project should be ready to use the TapjoyPlugin.</li>
+</ul>
+<div><div><div><div>
+<div><b>Unity 4.3:</b></div>
+<div>
+<div>If&nbsp;you are using Unity 4.3 you'll need to make the following changes to the Manifest file to&nbsp;&nbsp;get display ads working:</div>
+<div><ol>
+<li>Delete the non-native activity &nbsp;("com.unity3d.player.UnityPlayerActivity”)&nbsp;from your AndroidManifest.xml file</li>
+<li>Delete he proxy activity (“com.unity3d.player.UnityPlayerProxyActivity”) from your AndroidManifest.xml file</li>
+<li>Move&nbsp;</li>
+</ol></div>
+<div>&lt;intent-filter&gt;&nbsp;</div>
+<div>&lt;action android:name="android.intent.action.MAIN" /&gt;</div>
+<div>&lt;category android:name="android.intent.category.LAUNCHER" /&gt;</div>
+<div>&lt;/intent-filter&gt;</div>
+<div>to the native activity (com.unity3d.player.UnityPlayerNativeActivity)</div>
+</div>
+</div></div></div></div>
+<div><div><a href="https://knowledge.tapjoy.com/en/integration/unity-plugin?save_url=%2Fadmin%2Farticles%2Funity-plugin%2Fmercury_update&mercury_frame=true&_=1387584931314#android"></a></div></div>
+<ul></ul>
+</div>
+<div></div>
+</div>
+<div>
+<div><hr></div>
+<div><a name="events">Events</a></div>
+<div>
+<div>// CONNECT</div>
+<div>// Fired when RequestTapjoyConnect succeeds</div>
+<div>public static event Action connectCallSucceeded;</div>
+<div>// Fired when RequestTapjoyConnect fails</div>
+<div>public static event Action connectCallFailed;</div>
+<div>// VIRTUAL CURRENCY</div>
+<div>// Fired when GetTapPoints responds with the users tap points (amount of currency in user account is returned)</div>
+<div>public static event Action&lt;int&gt; getTapPointsSucceeded;</div>
+<div>// Fired when GetTapPoints fails to get the users tap points</div>
+<div>public static event Action getTapPointsFailed;</div>
+<div>// Fired when SpendTapPoints succeeds and indicates that the user has successfully spent currency (amount of currency left after spending is returned)</div>
+<div>public static event Action&lt;int&gt; spendTapPointsSucceeded;</div>
+<div>// Fired when SpendTapPoints fails to spend the currency</div>
+<div>public static event Action spendTapPointsFailed;</div>
+<div>// Fired when AwardTapPoints succeeds and indicates that the user has successfully been awarded currency</div>
+<div>public static event Action awardTapPointsSucceeded;</div>
+<div>// Fired when AwardTapPoints fails to award the currency</div>
+<div>public static event Action awardTapPointsFailed;</div>
+<div>// Fired when the applications starts/resumes, and the user has earned currency in the interim, by completing offers (amount earned is returned)</div>
+<div>public static event Action&lt;int&gt; tapPointsEarned;</div>
+<div>// FULLSCREEN AD</div>
+<div>// Fired when GetFullScreenAd finishes succesfully loading</div>
+<div>public static event Action getFullScreenAdSucceeded;</div>
+<div>// Fired when GetFullScreenAd fails loading</div>
+<div>public static event Action getFullScreenAdFailed;</div>
+<div>// DAILY REWARD</div>
+<div>// Fired when GetDailyRewardAd finishes succesfully loading</div>
+<div>public static event Action getDailyRewardAdSucceeded;</div>
+<div>// Fired when GetDailyRewardAd fails loading</div>
+<div>public static event Action getDailyRewardAdFailed;</div>
+<div>// DISPLAY AD</div>
+<div>// Fired when GetDisplayAd is received</div>
+<div>public static event Action getDisplayAdSucceeded;</div>
+<div>// Fired when GetDisplayAd fails</div>
+<div>public static event Action getDisplayAdFailed;</div>
+<div>// VIDEO AD</div>
+<div>// Fired when a video ad begins playing</div>
+<div>public static event Action videoAdStarted;</div>
+<div>// Fired when a video ad has completed playing</div>
+<div>public static event Action videoAdFailed;</div>
+<div>// Fired when a video ad has completed playing</div>
+<div>public static event Action videoAdCompleted;</div>
+<div>// GENERAL<span class="Apple-tab-span">	</span>
+</div>
+<div>// Fired when any full screen view is closed</div>
+<div>public static event Action&lt;TapjoyViewType&gt; viewClosed;</div>
+</div>
+<div><font div=""><div>
+<a name="callback">Optional Callback Methods (to be implemented in your code)</a><br>
+</div>
+<div>
+<div>NOTE: The following callback methods are not required, and you should consider using the events as listed above.</div>
+<div>Should you choose to continue using the callbacks, the need to be implemented in a GameObject in order to receive Tapjoy notifications. &nbsp;The name of the GameObject must be set with SetCallbackHandler() before any other Tapjoy methods are called. &nbsp;The Tapjoy library will trigger callback notifications when a certain action is completed, such as a successful completed Connect.</div>
+<div>
+<div>// Called when a Connect as completed successfully.</div>
+<div>public void TapjoyConnectSuccess(string message)</div>
+<div>// Called when a Connect as failed.</div>
+<div>public void TapjoyConnectFail(string message)</div>
+<div>// Called when Tap Points (Tapjoy managed currency) has been returned from the server.</div>
+<div>public void TapPointsLoaded(string message)</div>
+<div>// Called when the Tap Points request fails.</div>
+<div>public void TapPointsLoadedError(string message)</div>
+<div>// Called when the the spend Tap Points request has been returned from the server.</div>
+<div>public void TapPointsSpent(string message)</div>
+<div>// Called when spend Tap Points fails.</div>
+<div>public void TapPointsSpendError(string message)</div>
+<div>// Called when the award Tap Points request has been returned from the server.</div>
+<div>public void TapPointsAwarded(string message)</div>
+<div>// Called when award Tap Points fails.</div>
+<div>public void TapPointsAwardError(string message)</div>
+<div>// Called when Tapjoy managed currency has been awarded.</div>
+<div>public void CurrencyEarned(string message)</div>
+<div>// FULL SCREEN ADS</div>
+<div>// Called when the full screen ad has been loaded from the server. TapjoyPlugin.ShowFullScreenAdFullScreen() should be called at this point.</div>
+<div>public void FullScreenAdLoaded(string message)</div>
+<div>// Called when the full screen ad request fails.</div>
+<div>public void FullScreenAdError(string message)</div>
+<div>// DAILY-REWARD ADS</div>
+<div>// Called when the daily reward ad has been loaded from the server. TapjoyPlugin.ShowDailyRewardAd() should be called at this point.</div>
+<div>public void DailyRewardAdLoaded(string message)</div>
+<div>// Called when the daily reward ad request fails.</div>
+<div>public void DailyRewardAdError(string message)</div>
+<div>// DISPLAY ADS</div>
+<div>// Called whenever the display ad has been loaded from the server. &nbsp;TapjoyPlugin.ShowDisplayAd() should be called at this point.</div>
+<div>public void DisplayAdLoaded(string message)</div>
+<div>// Called when the banner ad request fails.</div>
+<div>public void DisplayAdError(string message)</div>
+<div>// VIDEO</div>
+<div>// Called when a video ads are ready (in the offer wall).</div>
+<div>public void VideoAdStart(string message)</div>
+<div>// Called when an error occurs while trying to play video.</div>
+<div>public void VideoAdError(string message)</div>
+<div>// Called when a video has completed playing.</div>
+<div>public void VideoAdComplete(string message)</div>
+</div>
+</div>
+<div>
+
+<div><a name="available"><hr></a></div>
+<div>
+<a name="available">Available Tapjoy Methods (to be called from your code)</a><br>
+</div>
+</div>
+</font></div>
+<font div="">
+<div></div>
+<div>
+<div>// CONNECT</div>
+<div>public static void SetCallbackHandler(string handlerName) { }</div>
+<div>public static void RequestTapjoyConnect(string appID, string secretKey) { }<br>
+</div>
+<div>public static void RequestTapjoyConnect(string appID, string secretKey, Dictionary&lt;string, string&gt; flags) { }<br>
+</div>
+<div>public static void EnableLogging(bool enable) { }<br>
+</div>
+<div>public static void ActionComplete(string actionID) { }<br>
+</div>
+<div>public static void SetUserID(string userID) { }<br>
+</div>
+<div>// OFFERS<br>
+</div>
+<div>public static void ShowOffers() { }</div>
+<div>// VIRTUAL CURRENCY<br>
+</div>
+<div>public static void GetTapPoints() { }</div>
+<div>public static void SpendTapPoints(int points) { }<br>
+</div>
+<div>public static void AwardTapPoints(int points) { }<br>
+</div>
+<div>public static int QueryTapPoints()<br>
+</div>
+<div>public static void ShowDefaultEarnedCurrencyAlert() { }<br>
+</div>
+<div>// DISPLAY ADS<br>
+</div>
+<div>public static void GetDisplayAd() { }</div>
+<div>public static void ShowDisplayAd() { }<br>
+</div>
+<div>public static void HideDisplayAd() { }<br>
+</div>
+<div>public static void SetDisplayAdSize(TapjoyDisplayAdSize size) { }<br>
+</div>
+<div>public static void EnableDisplayAdAutoRefresh(bool enable) { }<br>
+</div>
+<div>public static void MoveDisplayAd(int x, int y) { }<br>
+</div>
+<div>// iOS SETTING<br>
+</div>
+<div>public static void SetTransitionEffect(int transition) { }</div>
+<div>// FULL SCREEN ADS<br>
+</div>
+<div>public static void GetFullScreenAd() { }</div>
+<div>public static void ShowFullScreenAd() { }<br>
+</div>
+<div>// DAILY REWARD ADS<br>
+</div>
+<div>public static void GetDailyRewardAd() { }</div>
+<div>public static void ShowDailyRewardAd() { }<br>
+</div>
+<div>// EVENT TRACKING<br>
+</div>
+<div>public static void SendShutDownEvent() { }</div>
+<div>public static void SendIAPEvent(string name, float price, int quantity, string currencyCode) { }<br>
+</div>
+<div>// MULTIPLE CURRENCY (currency cannot be managed by Tapjoy)<br>
+</div>
+<div>public static void ShowOffersWithCurrencyID(string currencyID, bool selector) { }</div>
+<div>public static void GetDisplayAdWithCurrencyID(string currencyID) { }<br>
+</div>
+<div>public static void GetFullScreenAdWithCurrencyID(string currencyID) { }<br>
+</div>
+<div>public static void SetCurrencyMultiplier(float multiplier) { }<br>
+</div>
+<div>public static void GetDailyRewardAdWithCurrencyID(string currencyID) { }<br>
+</div>
+<div><br></div>
+<div><br></div>
+<div></div>
+</div></font>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+<div id="extra_articles">
+<div id="related_articles">
+<h2>Related Articles</h2>
+<ul>
+<li><a href="https://knowledge.tapjoy.com/en/integration/getting-started-guide-for-publishers" class="">Getting Started Guide for Publishers</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/phonegap-plugin" class="">PhoneGap Plugin</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/integrating-daily-rewards-discontinued" class="">Integrating Daily Rewards - DISCONTINUED</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/change-log" class="">Change Log</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/integrating-display-ads" class="">Integrating Display Ads</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/non-managed-currency" class="">Non-Managed Currency</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/terms-of-service" class="">Terms of Service</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/ios-change-log-release-notes" class="">iOS Change Log/Release Notes</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/integrating-fullscreen-ads" class="">Integrating Fullscreen Ads</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/virtual-goods-discontinued" class="">Virtual Goods - DISCONTINUED</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/integrating-video-ads" class="">Integrating Video Ads</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/windows-change-log-release-notes" class="">Windows Change Log/Release Notes</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/managed-currency" class="">Managed Currency</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/adobe-air-plugin" class="">Adobe AIR Plugin</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/advertiser/overview-for-advertisers" class="">Overview for Advertisers</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/android-change-log-release-notes" class="">Android Change Log/Release Notes</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/9-1-sdk-upgrade-guide" class="">9.1 SDK Upgrade Guide</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/8-x-to-9-x-upgrade-guide" class="">8.x to 9.x Upgrade Guide</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/integrating-pay-per-engagement" class="">Integrating Pay Per Engagement</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/virtual-currency" class="">Virtual Currency</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/integrating-the-offerwall" class="">Integrating the Offerwall</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/getting-started-guide-for-advertisers" class="">Getting Started Guide for Advertisers</a></li>
+<li><a href="https://knowledge.tapjoy.com/en/integration/frequently-asked-questions-faq" class="">Frequently Asked Questions (FAQ)</a></li>
+</ul>
+</div>
+<div id="featured_articles">
+<h2>Common Articles</h2>
+<ul data-update-url="/admin/articles/sort" id="featured">
+<li class="article" id="article_14"><span class="handle admin">[drag]</span>
+<a href="https://knowledge.tapjoy.com/en/integration/publisher-sdks">Publisher SDKs</a>
+</li><li class="article" id="article_13"><span class="handle admin">[drag]</span>
+<a href="https://knowledge.tapjoy.com/en/integration/advertiser-sdks">Advertiser SDKs</a>
+</li></ul>
+</div>
+</div>
+
+<div id="footer"><div id="footer">
+<div class="links">
+<a href="http://developers.tapjoy.com/">Developers</a>
+|
+<a href="http://advertisers.tapjoy.com/">Advertisers</a>
+|
+<a href="http://info.tapjoy.com/about-tapjoy/">About Tapjoy</a>
+|
+<a href="http://info.tapjoy.com/about-tapjoy/privacy-policy/">Privacy Policy</a>
+|
+<a href="http://blog.tapjoy.com/">Blog</a>
+|
+<a href="https://knowledge.tapjoy.com/users/auth/tapjoy">Login</a>
+</div>
+<div id="copyright">Copyright © 2014 Tapjoy, Inc. All Rights Reserved. Tapjoy and the Tapjoy logo are trademarks or registered trademarks of Tapjoy, Inc. All third party logos and trademarks mentioned are the property of their respective owners.</div>
+</div>
+</div>
+
+<center>
+<a href="./male_files/male.html">English</a>
+|
+<a href="https://knowledge.tapjoy.com/zh-cn/integration/unity-plugin">中文(简体)</a>
+|
+<a href="https://knowledge.tapjoy.com/zh-tw/integration/unity-plugin">中文(繁體)</a>
+|
+<a href="https://knowledge.tapjoy.com/ja/integration/unity-plugin">日本語</a>
+|
+<a href="https://knowledge.tapjoy.com/es/integration/unity-plugin">Español</a>
+|
+<a href="https://knowledge.tapjoy.com/fr/integration/unity-plugin">Français</a>
+|
+<a href="https://knowledge.tapjoy.com/it/integration/unity-plugin">Italiano</a>
+|
+<a href="https://knowledge.tapjoy.com/ko/integration/unity-plugin">한국어</a>
+|
+<a href="https://knowledge.tapjoy.com/de/integration/unity-plugin">Deutsch</a>
+|
+<a href="https://knowledge.tapjoy.com/ru/integration/unity-plugin">Русский</a>
+|
+<a href="https://knowledge.tapjoy.com/sv/integration/unity-plugin">Svenska</a>
+|
+<a href="https://knowledge.tapjoy.com/nl/integration/unity-plugin">Nederlands</a>
+</center>
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-3.newrelic.com","0aea7e4f42","1048983","IQ1WR0dcWlxXEE5VShYLW19QQBlDWg0W",0,39,new Date().getTime(),"","","","",""]);</script>
+
+<script>
+  $(function() {
+    $.getScript("/en/users/current.js")
+  });
+</script>
+<ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="z-index: 1; display: none;"></ul><script type="text/javascript" src="./male_files/nr-100.js"></script><script type="text/javascript" src="./male_files/0aea7e4f42"></script></body></html>

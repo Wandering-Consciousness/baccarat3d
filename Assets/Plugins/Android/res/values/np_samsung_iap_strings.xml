@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com.neatplug.samsungiap.pleasewait">Please wait...</string>
+    <string name="com.neatplug.samsungiap.update">Update</string>
+    <string name="com.neatplug.samsungiap.cancel">Cancel</string>
+    <string name="com.neatplug.samsungiap.iaptitle">Samsung In-App Purchase</string>
+    <string name="com.neatplug.samsungiap.iapupdaterequired">A new version of Samsung In-App Purchase is available, you must update to that version to enable In-App Purchase for this App.</string>   
+</resources>

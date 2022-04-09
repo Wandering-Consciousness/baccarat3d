@@ -1,0 +1,313 @@
+fileFormatVersion: 2
+guid: 99f771ffa64eb234c8fc5173a61bb32e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: $1 chip28
+    100002: $1 chip28_MeshPart0
+    100004: $1 chip28_MeshPart1
+    100006: $1 chip28_MeshPart2
+    100008: $1 chip28_MeshPart3
+    100010: $1 chip28_MeshPart4
+    100012: armrest
+    100014: ashays
+    100016: //RootNode
+    100018: band
+    100020: chips only
+    100022: Chips place
+    100024: cup holders
+    100026: dealer's card's place
+    100028: felt
+    100030: info sheet
+    100032: left card's box
+    100034: money hole
+    100036: mr Area Spot01
+    100038: mr Area Spot01.Target
+    100040: Plane53
+    100042: Plane54
+    100044: reflections
+    100046: table
+    100048: table band
+    400000: $1 chip28
+    400002: $1 chip28_MeshPart0
+    400004: $1 chip28_MeshPart1
+    400006: $1 chip28_MeshPart2
+    400008: $1 chip28_MeshPart3
+    400010: $1 chip28_MeshPart4
+    400012: armrest
+    400014: ashays
+    400016: //RootNode
+    400018: band
+    400020: chips only
+    400022: Chips place
+    400024: cup holders
+    400026: dealer's card's place
+    400028: felt
+    400030: info sheet
+    400032: left card's box
+    400034: money hole
+    400036: mr Area Spot01
+    400038: mr Area Spot01.Target
+    400040: Plane53
+    400042: Plane54
+    400044: reflections
+    400046: table
+    400048: table band
+    2300000: $1 chip28_MeshPart0
+    2300002: $1 chip28_MeshPart1
+    2300004: $1 chip28_MeshPart2
+    2300006: $1 chip28_MeshPart3
+    2300008: $1 chip28_MeshPart4
+    2300010: armrest
+    2300012: ashays
+    2300014: band
+    2300016: Chips place
+    2300018: cup holders
+    2300020: dealer's card's place
+    2300022: felt
+    2300024: info sheet
+    2300026: left card's box
+    2300028: money hole
+    2300030: Plane53
+    2300032: Plane54
+    2300034: reflections
+    2300036: table
+    2300038: table band
+    3300000: $1 chip28_MeshPart0
+    3300002: $1 chip28_MeshPart1
+    3300004: $1 chip28_MeshPart2
+    3300006: $1 chip28_MeshPart3
+    3300008: $1 chip28_MeshPart4
+    3300010: armrest
+    3300012: ashays
+    3300014: band
+    3300016: Chips place
+    3300018: cup holders
+    3300020: dealer's card's place
+    3300022: felt
+    3300024: info sheet
+    3300026: left card's box
+    3300028: money hole
+    3300030: Plane53
+    3300032: Plane54
+    3300034: reflections
+    3300036: table
+    3300038: table band
+    4300000: cup holders
+    4300002: armrest
+    4300004: band
+    4300006: reflections
+    4300008: ashays
+    4300010: felt
+    4300012: table band
+    4300014: info sheet
+    4300016: money hole
+    4300018: Chips place
+    4300020: left card's box
+    4300022: table
+    4300024: dealer's card's place
+    4300026: $1 chip28_MeshPart0
+    4300028: $1 chip28_MeshPart1
+    4300030: $1 chip28_MeshPart2
+    4300032: $1 chip28_MeshPart3
+    4300034: $1 chip28_MeshPart4
+    4300036: Plane53
+    4300038: Plane54
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: $1 chip
+    second: {fileID: 2100000, guid: 4c749ee1772000044aae6ca777bf9173, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: $10 chip
+    second: {fileID: 2100000, guid: 83b9e97648c32a542a4b5c0cca4be5f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: $100 chip
+    second: {fileID: 2100000, guid: 4beaba34e5199094b86a3f22448fbc2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: $25 chip
+    second: {fileID: 2100000, guid: 0a10727976bbd1f45b77f36400ffa258, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: $5 chip
+    second: {fileID: 2100000, guid: 663d38785a3cc5949aae7d5b5fd57f59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: ddf24bc065c6b7f4eabe6827ae0e8ddb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632193727'
+    second: {fileID: 2100000, guid: a6eeffd2e247cb24fbdaf85e3cdb1466, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632193854'
+    second: {fileID: 2100000, guid: d0ecaa8caeb06624a9b8bb335ecb081f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632193855'
+    second: {fileID: 2100000, guid: d0ecaa8caeb06624a9b8bb335ecb081f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632193856'
+    second: {fileID: 2100000, guid: 0e53fd2fe4aa31546afc7b3ce598303f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632193899'
+    second: {fileID: 2100000, guid: 3d706f5f7f65e0f45ac1203e2e457fcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632193900'
+    second: {fileID: 2100000, guid: c3b691addf7ae2c4b8cd2e2fa168a4be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632193901'
+    second: {fileID: 2100000, guid: 03b309d52e7051c44a179c63ea5a3456, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245516'
+    second: {fileID: 2100000, guid: 01aaccb3107c16e4c83eddf2c89b183e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245517'
+    second: {fileID: 2100000, guid: ff936ad2880f10243bf13b34ff356849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245564'
+    second: {fileID: 2100000, guid: 9abbf2fd962e08341b79fad1f7e584a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245565'
+    second: {fileID: 2100000, guid: b371de157711a7c4e859a8966c3a833c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245566'
+    second: {fileID: 2100000, guid: 304ed177c04ca0b4fbde1a1eca7431d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245567'
+    second: {fileID: 2100000, guid: 13abb3a15ad478d49b9e36373a54cbb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1632245568'
+    second: {fileID: 2100000, guid: eda6c02595dcfd4418c6a23c4dc331b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deck
+    second: {fileID: 2100000, guid: abf37e5d193cef045a9165209cb4aac1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reflections
+    second: {fileID: 2100000, guid: 190850b39b01df14ba20d64d5e5987c0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

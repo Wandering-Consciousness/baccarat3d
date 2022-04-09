@@ -1,0 +1,13 @@
+Bubbly manager is only for 2D bubble users
+
+It generates font's width set to be used when expanding speech bubbles on runtime
+
+When you start you'll see bubbles expanding
+If texts are staying nicely inside bubbles then click Set button
+if not, adjust width at below text field then Click the button
+If you are not sure the width you have typed in is indeed correct,
+try the width +1 and -1 then you will see it right away
+
+At the end, text file is generated then you can stop the scene
+To use the text file, you need to reimport it by
+for example, opening the folder of your project and coming back to editor

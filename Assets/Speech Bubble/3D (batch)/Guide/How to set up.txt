@@ -1,0 +1,57 @@
+(Youtube video is live)
+
+
+1. Add "Bubble Batched" layer (Edit -> Project settings -> Tags)
+
+
+2. Go to Wizard/Resources/3D/Shape and change 2 prefabs layer to it (including childs)
+
+
+3. Go to 3D/Prefabs and drop "Bubble Batched Camera" in your scene
+
+
+4. Add "Bubble Batched" layer to its culling mask "only" and in depth, 
+put number that is bigger than your scene's main perspective camera
+
+
+5. Add "Bubble Batched Manager" from Prefabs folder
+
+
+6. In cam perspective, add your scene's main camera
+
+
+7. In cam orthographic, add "Bubble Batched Camera"
+
+
+8. Add your hero in "Target To Follow"
+
+
+9. Make a new empty GameObject named "Speech Holder" and make it a child of your character
+and place it above its head
+
+
+10. Open your hero's script then add below two variables on top
+
+private var speech : SpeechBatched; 	// this entity's speech reference
+
+var speechHolder : Transform; 	// position where speech bubble will stay, preferably right above a head
+
+
+11. Add this function somewhere also
+
+function SetSpeech()
+{
+	speech = Instantiate(SpeechBatchedManager.bubble, speechHolder.localPosition, Quaternion.identity).GetComponent(SpeechBatched);	
+	speech.holder = speechHolder; // pass holder
+	speech.Stop();
+}
+
+
+12. Call SetSpeech(); at your Start()
+
+
+13. Save the script, back to editor, give the reference of "Speech Holder" we made ealier
+to your hero's script
+
+
+Now everying is set up and you can use a speech bubble!
