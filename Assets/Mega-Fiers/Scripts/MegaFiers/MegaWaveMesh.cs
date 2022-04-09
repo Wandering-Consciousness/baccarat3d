@@ -194,7 +194,7 @@ public class MegaWaveMesh : MonoBehaviour
 				}
 
 				BuildCollider(colmesh);
-				meshCol.smoothSphereCollisions = true;
+				// meshCol.smoothSphereCollisions = true;// simon: Comment out in Unity 2021.2.18 import
 				meshCol.sharedMesh = null;
 				meshCol.sharedMesh = colmesh;
 				//bool con = meshCol.convex;
