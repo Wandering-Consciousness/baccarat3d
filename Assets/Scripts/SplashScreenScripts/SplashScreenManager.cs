@@ -73,14 +73,16 @@ public class SplashScreenManager : MonoBehaviour
 
 #else
 
-        if(QCARRuntimeUtilities.IsLandscapeOrientation)
-        {
+        // simon: Comment out in Unity 2018.3.14 import
+        // if(QCARRuntimeUtilities.IsLandscapeOrientation)
+        // {
             GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), LandscapeTextureAndroid);
-        }
-        else
-        {
-            GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), PortraitTextureAndroid);
-        }
+        // simon: Comment out in Unity 2018.3.14 import
+        // }
+        // else
+        // {
+        //     GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), PortraitTextureAndroid);
+        // }
 
 #endif
 

@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using GooglePlayGames;
+// using GooglePlayGames;// TODO2022: refactor
 using UnityEngine.SocialPlatforms;
 
 /**

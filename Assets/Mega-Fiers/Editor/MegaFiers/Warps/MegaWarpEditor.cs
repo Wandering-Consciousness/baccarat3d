@@ -30,12 +30,12 @@ public class MegaWarpEditor : Editor
 		Selection.activeObject = go;
 	}
 
-	[DrawGizmo(GizmoType.NotSelected | GizmoType.Pickable)]
+	[DrawGizmo(GizmoType.NotInSelectionHierarchy | GizmoType.Pickable)]
 	static void RenderGizmo(MegaWarp warp, GizmoType gizmoType)
 	{
 		if ( MegaModifiers.GlobalDisplay && warp.DisplayGizmo )
 		{
-			if ( (gizmoType & GizmoType.NotSelected) != 0 )
+			if ( (gizmoType & GizmoType.NotInSelectionHierarchy) != 0 )
 			{
 				if ( (gizmoType & GizmoType.Active) != 0 )
 				{

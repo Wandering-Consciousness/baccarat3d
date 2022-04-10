@@ -41,7 +41,7 @@ public class ToolsMenu : MonoBehaviour
 		foreach(Transform t in Selection.transforms)
 		{
 				
-			t.renderer.enabled = false;
+			t.GetComponent<Renderer>().enabled = false;
 				
 		}
 
@@ -53,12 +53,12 @@ public class ToolsMenu : MonoBehaviour
 	
 		try
 		{
-			Material m = Selection.activeTransform.renderer.sharedMaterial;
+			Material m = Selection.activeTransform.GetComponent<Renderer>().sharedMaterial;
 			
 			foreach(Transform t in Selection.transforms)
 			{
 				
-				t.renderer.sharedMaterial = 	m;
+				t.GetComponent<Renderer>().sharedMaterial = 	m;
 				
 			}
 		

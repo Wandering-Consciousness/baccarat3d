@@ -63,7 +63,7 @@ public class MegaTracksEditor : Editor
 		}
 	}
 
-	[DrawGizmo(GizmoType.NotSelected | GizmoType.Pickable | GizmoType.Selected)]
+	[DrawGizmo(GizmoType.NotInSelectionHierarchy | GizmoType.Pickable | GizmoType.Selected)]
 	static void RenderGizmo(MegaTracks track, GizmoType gizmoType)
 	{
 		if ( (gizmoType & GizmoType.Active) != 0 )

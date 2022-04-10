@@ -226,10 +226,13 @@ public class ShopManager : MonoBehaviour
         if (GUILayout.Button (LanguageManager.GetText("btn_more_games"), GUILayout.Width (buttonWidth/2), GUILayout.Height (buttonHeight))) {
             Debug.Log ("More Games pressed");
             LogUtils.LogEvent(Consts.FE_BTN_SHOP_EVENT, new string[] { Consts.FEP_BTN_SHOP_MORE_GAMES }, false);
-            if (GameState.Instance.adsManager != null) {
-                Debug.Log ("Calling More Games from Ads Manager");
-                GameState.Instance.adsManager.showMoreGames();
-            }
+
+            // TODO2022: refactor
+            // if (GameState.Instance.adsManager != null) {
+            //     Debug.Log ("Calling More Games from Ads Manager");
+            //     GameState.Instance.adsManager.showMoreGames();
+            // }
+
             GameState.Instance.ToggleFingerGestures (true);
             ToggleOn();
         }

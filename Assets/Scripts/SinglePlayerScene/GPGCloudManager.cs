@@ -1,4 +1,4 @@
-﻿using GooglePlayGames;
+﻿// using GooglePlayGames;// TODO2022: refactor
 using UnityEngine.SocialPlatforms;
 //using GooglePlayGames.BasicApi;
 using UnityEngine;

@@ -70,7 +70,7 @@ public class UIAnchor : MonoBehaviour
     void OnEnable()
     {
         mIsWindows = (Application.platform == RuntimePlatform.WindowsPlayer ||
-            Application.platform == RuntimePlatform.WindowsWebPlayer ||
+            // Application.platform == RuntimePlatform.WindowsWebPlayer || // simon: Comment out in Unity 2018.3.14 import
             Application.platform == RuntimePlatform.WindowsEditor);
 
         if (uiCamera == null) uiCamera = NGUITools.FindCameraForLayer(gameObject.layer);
