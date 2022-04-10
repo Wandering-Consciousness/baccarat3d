@@ -280,15 +280,18 @@ public class MegaModifierEditor : Editor
 					col = Color.blue;
 					col.a = a;
 					Handles.color = col;
-					Handles.ArrowCap(0, pos, rot * Quaternion.Euler(180.0f, 0.0f, 0.0f), mod.GizmoSize());
+					// simon: Comment out in Unity 2021.2.18 import
+					// Handles.ArrowCap(0, pos, rot * Quaternion.Euler(180.0f, 0.0f, 0.0f), mod.GizmoSize());
 					col = Color.green;
 					col.a = a;
 					Handles.color = col;
-					Handles.ArrowCap(0, pos, rot * Quaternion.Euler(90.0f, 0.0f, 0.0f), mod.GizmoSize());
+					// simon: Comment out in Unity 2021.2.18 import
+					// Handles.ArrowCap(0, pos, rot * Quaternion.Euler(90.0f, 0.0f, 0.0f), mod.GizmoSize());
 					col = Color.red;
 					col.a = a;
 					Handles.color = col;
-					Handles.ArrowCap(0, pos, rot * Quaternion.Euler(0.0f, -90.0f, 0.0f), mod.GizmoSize());
+					// simon: Comment out in Unity 2021.2.18 import
+					// Handles.ArrowCap(0, pos, rot * Quaternion.Euler(0.0f, -90.0f, 0.0f), mod.GizmoSize());
 				}
 
 				// gizmopos
@@ -299,15 +302,18 @@ public class MegaModifierEditor : Editor
 					col = Color.blue;
 					col.a = a;
 					Handles.color = col;
-					Handles.ArrowCap(0, pos, rot * Quaternion.Euler(180.0f, 0.0f, 0.0f), mod.GizmoSize());
+					// simon: Comment out in Unity 2021.2.18 import
+					// Handles.ArrowCap(0, pos, rot * Quaternion.Euler(180.0f, 0.0f, 0.0f), mod.GizmoSize());
 					col = Color.green;
 					col.a = a;
 					Handles.color = col;
-					Handles.ArrowCap(0, pos, rot * Quaternion.Euler(90.0f, 0.0f, 0.0f), mod.GizmoSize());
+					// simon: Comment out in Unity 2021.2.18 import
+					// Handles.ArrowCap(0, pos, rot * Quaternion.Euler(90.0f, 0.0f, 0.0f), mod.GizmoSize());
 					col = Color.red;
 					col.a = a;
 					Handles.color = col;
-					Handles.ArrowCap(0, pos, rot * Quaternion.Euler(0.0f, -90.0f, 0.0f), mod.GizmoSize());
+					// simon: Comment out in Unity 2021.2.18 import
+					// Handles.ArrowCap(0, pos, rot * Quaternion.Euler(0.0f, -90.0f, 0.0f), mod.GizmoSize());
 				}
 #endif
 				Handles.matrix = Matrix4x4.identity;

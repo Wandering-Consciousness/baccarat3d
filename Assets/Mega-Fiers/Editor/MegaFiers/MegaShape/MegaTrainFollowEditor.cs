@@ -94,13 +94,15 @@ public class MegaTrainFollowEditor : Editor
 				Handles.DrawLine(car.b1, car.b2);
 				//Gizmos.DrawSphere(car.b1, car.length * 0.025f);
 				//Gizmos.DrawSphere(car.b2, car.length * 0.025f);
-				Handles.SphereCap(0, car.cp, Quaternion.identity, car.length * 0.025f);
-				Handles.SphereCap(0, car.b1, Quaternion.identity, car.length * 0.025f);
-				Handles.SphereCap(0, car.b2, Quaternion.identity, car.length * 0.025f);
+				// simon: Comment out in Unity 2021.2.18 import
+				// Handles.SphereCap(0, car.cp, Quaternion.identity, car.length * 0.025f);
+				// Handles.SphereCap(0, car.b1, Quaternion.identity, car.length * 0.025f);
+				// Handles.SphereCap(0, car.b2, Quaternion.identity, car.length * 0.025f);
 									//if ( showrays )
 				Handles.color = Color.red;
 				Handles.DrawLine(car.cp, car.bp1);
-				Handles.SphereCap(0, car.bp1, Quaternion.identity, car.length * 0.025f);
+				// simon: Comment out in Unity 2021.2.18 import
+				// Handles.SphereCap(0, car.bp1, Quaternion.identity, car.length * 0.025f);
 
 				//Gizmos.color = Color.green;
 				Handles.color = Color.green;
@@ -108,7 +110,8 @@ public class MegaTrainFollowEditor : Editor
 				Handles.DrawLine(car.cp, car.bp2);
 
 				//Gizmos.DrawSphere(car.bp2, car.length * 0.025f);
-				Handles.SphereCap(0, car.bp2, Quaternion.identity, car.length * 0.025f);
+				// simon: Comment out in Unity 2021.2.18 import
+				// Handles.SphereCap(0, car.bp2, Quaternion.identity, car.length * 0.025f);
 			}
 		}
 	}

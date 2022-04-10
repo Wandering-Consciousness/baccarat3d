@@ -63,8 +63,9 @@ public class MegaVertColSelectEditor : MegaModifierEditor
 
 					Vector3 p = tm.MultiplyPoint(mc.sverts[i]);
 
-					if ( w > 0.001f )
-						Handles.DotCap(i, p, Quaternion.identity, mod.gizSize);
+					// simon: Comment out in Unity 2021.2.18 import
+					// if ( w > 0.001f )
+					// 	Handles.DotCap(i, p, Quaternion.identity, mod.gizSize);
 				}
 			}
 		}

@@ -128,8 +128,9 @@ public class MegaFFDEditor : MegaModifierEditor
 								//pm = tm.inverse.MultiplyPoint(Handles.PositionHandle(tm.MultiplyPoint(p), Quaternion.identity));
 								//pm = PositionHandle(p, Quaternion.identity, handleSize, ffd.gizCol1.a);
 							}
-							else
-								ttp = Handles.FreeMoveHandle(tp, Quaternion.identity, ffd.KnotSize * 0.1f, Vector3.zero, Handles.CircleCap);
+							// simon: Comment out in Unity 2021.2.18 import
+							// else
+							// 	ttp = Handles.FreeMoveHandle(tp, Quaternion.identity, ffd.KnotSize * 0.1f, Vector3.zero, Handles.CircleCap);
 
 							if ( ttp != tp )
 							{
@@ -243,23 +244,27 @@ public class MegaFFDEditor : MegaModifierEditor
 		Color col = Color.red;
 		col.a = alpha;
 		Handles.color = col;	//Color.red;	//Handles..xAxisColor;
-		position = Handles.Slider(position, rotation * Vector3.right, handlesize, new Handles.DrawCapFunction(Handles.ArrowCap), 0.0f);	//SnapSettings.move.x);
+		// simon: Comment out in Unity 2021.2.18 import
+		// position = Handles.Slider(position, rotation * Vector3.right, handlesize, new Handles.DrawCapFunction(Handles.ArrowCap), 0.0f);	//SnapSettings.move.x);
 		col = Color.green;
 		col.a = alpha;
 		Handles.color = col;	//Color.green;	//Handles.yAxisColor;
-		position = Handles.Slider(position, rotation * Vector3.up, handlesize, new Handles.DrawCapFunction(Handles.ArrowCap), 0.0f);	//SnapSettings.move.y);
+		// simon: Comment out in Unity 2021.2.18 import
+		// position = Handles.Slider(position, rotation * Vector3.up, handlesize, new Handles.DrawCapFunction(Handles.ArrowCap), 0.0f);	//SnapSettings.move.y);
 
 		col = Color.blue;
 		col.a = alpha;
 
 		Handles.color = col;	//Color.blue;	//Handles.zAxisColor;
-		position = Handles.Slider(position, rotation * Vector3.forward, handlesize, new Handles.DrawCapFunction(Handles.ArrowCap), 0.0f);	//SnapSettings.move.z);
+		// simon: Comment out in Unity 2021.2.18 import
+		// position = Handles.Slider(position, rotation * Vector3.forward, handlesize, new Handles.DrawCapFunction(Handles.ArrowCap), 0.0f);	//SnapSettings.move.z);
 
 		col = Color.yellow;
 		col.a = alpha;
 
 		Handles.color = col;	//Color.yellow;	//Handles.centerColor;
-		position = Handles.FreeMoveHandle(position, rotation, handlesize * 0.15f, Vector3.zero, new Handles.DrawCapFunction(Handles.RectangleCap));
+		// simon: Comment out in Unity 2021.2.18 import
+		// position = Handles.FreeMoveHandle(position, rotation, handlesize * 0.15f, Vector3.zero, new Handles.DrawCapFunction(Handles.RectangleCap));
 		Handles.color = color;
 		return position;
 	}

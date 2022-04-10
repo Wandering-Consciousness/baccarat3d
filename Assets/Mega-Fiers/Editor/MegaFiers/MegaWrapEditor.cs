@@ -96,7 +96,8 @@ public class MegaWrapEditor : Editor
 						Handles.color = col;
 
 						Vector3 p = (mod.skinnedVerts[bv.verts[i].i0] + mod.skinnedVerts[bv.verts[i].i1] + mod.skinnedVerts[bv.verts[i].i2]) / 3.0f;	//tm.MultiplyPoint(mod.vr[i].cpos);
-						Handles.DotCap(i, p, Quaternion.identity, mod.size);	//0.01f);
+						// simon: Comment out in Unity 2021.2.18 import
+						// Handles.DotCap(i, p, Quaternion.identity, mod.size);	//0.01f);
 
 						Vector3 p0 = mod.skinnedVerts[bi.i0];
 						Vector3 p1 = mod.skinnedVerts[bi.i1];
@@ -132,7 +133,8 @@ public class MegaWrapEditor : Editor
 						Handles.color = col;
 
 						Vector3 p = (mod.target.sverts[bv.verts[i].i0] + mod.target.sverts[bv.verts[i].i1] + mod.target.sverts[bv.verts[i].i2]) / 3.0f;	//tm.MultiplyPoint(mod.vr[i].cpos);
-						Handles.DotCap(i, p, Quaternion.identity, mod.size);	//0.01f);
+						// simon: Comment out in Unity 2021.2.18 import
+						// Handles.DotCap(i, p, Quaternion.identity, mod.size);	//0.01f);
 
 						Vector3 p0 = mod.target.sverts[bi.i0];
 						Vector3 p1 = mod.target.sverts[bi.i1];
@@ -156,7 +158,8 @@ public class MegaWrapEditor : Editor
 					if ( mod.bindverts[i].weight == 0.0f )
 					{
 						Vector3 pv1 = mod.freeverts[i];
-						Handles.DotCap(0, pv1, Quaternion.identity, mod.size);	//0.01f);
+						// simon: Comment out in Unity 2021.2.18 import
+						// Handles.DotCap(0, pv1, Quaternion.identity, mod.size);	//0.01f);
 					}
 				}
 			}
@@ -166,7 +169,8 @@ public class MegaWrapEditor : Editor
 				Handles.color = Color.red;
 				Handles.matrix = mod.transform.localToWorldMatrix;
 				Vector3 pv = mod.verts[mod.vertindex];
-				Handles.DotCap(0, pv, Quaternion.identity, mod.size);	//0.01f);
+				// simon: Comment out in Unity 2021.2.18 import
+				// Handles.DotCap(0, pv, Quaternion.identity, mod.size);	//0.01f);
 			}
 		}
 	}

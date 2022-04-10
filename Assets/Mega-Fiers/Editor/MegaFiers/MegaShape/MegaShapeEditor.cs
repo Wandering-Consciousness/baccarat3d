@@ -872,7 +872,8 @@ public class MegaShapeEditor : Editor
 
 			case MegaHandleType.Free:
 				//Handles.SphereCap(0, shape.transform.TransformPoint(pos), q, shape.KnotSize * 0.01f);
-				pos = Handles.FreeMoveHandle(pos, q, shape.KnotSize * 0.01f, Vector3.zero, Handles.CircleCap);
+				// simon: Comment out in Unity 2021.2.18 import
+				// pos = Handles.FreeMoveHandle(pos, q, shape.KnotSize * 0.01f, Vector3.zero, Handles.CircleCap);
 				break;
 		}
 		return pos;

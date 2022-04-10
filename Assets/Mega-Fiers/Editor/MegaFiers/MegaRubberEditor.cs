@@ -124,7 +124,8 @@ public class MegaRubberEditor : MegaModifierEditor
 				Handles.color = col;
 
 				Vector3 p = mod.vr[i].cpos;	//tm.MultiplyPoint(mod.vr[i].cpos);
-				Handles.DotCap(i, p, Quaternion.identity, mod.size);
+				// simon: Comment out in Unity 2021.2.18 import
+				// Handles.DotCap(i, p, Quaternion.identity, mod.size);
 			}
 
 			Handles.matrix = Matrix4x4.identity;

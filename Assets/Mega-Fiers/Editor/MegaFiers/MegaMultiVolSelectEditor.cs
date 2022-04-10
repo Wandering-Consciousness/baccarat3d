@@ -108,7 +108,8 @@ public class MegaMultiVolSelectEditor : MegaModifierEditor
 						else
 							Handles.color = Color.Lerp(Color.blue, Color.green, w * 2.0f);
 
-						Handles.DotCap(i, mc.sverts[i], Quaternion.identity, mod.gizSize);
+						// simon: Comment out in Unity 2021.2.18 import
+						// Handles.DotCap(i, mc.sverts[i], Quaternion.identity, mod.gizSize);
 					}
 				}
 			}
@@ -127,7 +128,8 @@ public class MegaMultiVolSelectEditor : MegaModifierEditor
 					if ( vol.volType == MegaVolumeType.Sphere )
 					{
 						//Handles.SphereCap(0, tm.MultiplyPoint(vol.origin), Quaternion.identity, vol.radius * 2.0f);
-						Handles.SphereCap(0, vol.origin, Quaternion.identity, vol.radius * 2.0f);
+						// simon: Comment out in Unity 2021.2.18 import
+						// Handles.SphereCap(0, vol.origin, Quaternion.identity, vol.radius * 2.0f);
 					}
 					//else
 					//	Handles.CubeCap(.DrawCube(0, tm.MultiplyPoint(vol.origin), Quaternion.identity, vol.radius * 2.0f);

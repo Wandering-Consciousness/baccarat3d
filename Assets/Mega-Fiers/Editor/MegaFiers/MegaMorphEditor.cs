@@ -1585,7 +1585,8 @@ public class MegaMorphEditor : Editor
 					for ( int i = 0; i < mo.verts.Length; i++ )
 					{
 						Vector3 p = mo.verts[i];
-						Handles.DotCap(i, p, Quaternion.identity, vsize);
+						// simon: Comment out in Unity 2021.2.18 import
+						// Handles.DotCap(i, p, Quaternion.identity, vsize);
 					}
 				}
 
@@ -1600,7 +1601,8 @@ public class MegaMorphEditor : Editor
 				for ( int i = mod.mapStart; i < mod.mapEnd; i++ )
 				{
 					Vector3 p = mod.oPoints[i];
-					Handles.DotCap(i, p, Quaternion.identity, vsize1);
+					// simon: Comment out in Unity 2021.2.18 import
+					// Handles.DotCap(i, p, Quaternion.identity, vsize1);
 				}
 
 				Handles.matrix = Matrix4x4.identity;
